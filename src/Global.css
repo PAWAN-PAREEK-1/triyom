@@ -1,0 +1,31 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+:root{
+    --poppins:'Poppins', sans-serif;
+    --play: 'Playfair Display', serif;
+}
+.btn {
+    padding: 0.625rem 1.5625rem;
+
+    cursor: pointer;
+    background-color: #BA9778;
+}
+
+
+
+.btn a {
+    color: #FFF;
+    font-family:var(--Playfair);
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.625rem;
+
+}
