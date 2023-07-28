@@ -7,7 +7,7 @@ import Button from './Button';
 import call from '../assets/img/call.svg';
 import mail from '../assets/img/mail.svg';
 import location from '../assets/img/location.svg';
-import '../script/toogle.js';
+// import '../script/toogle.jsx';
 
 
 const Header = () => {
@@ -38,16 +38,7 @@ const Header = () => {
       <Navbar/>
       <Button />
       </div>
-      <div className='navbar'>
-
-             <img className='burger-btn' onClick={toogle} src="https://www.svgrepo.com/show/322481/hamburger-menu.svg" alt="burger-manu"/>
-         <ul className='nav-list'>
-             <li>Home</li>
-             <li>About</li>
-             <li>Projects</li>
-             <li>Contact</li>
-            </ul>
-          </div>
+     
 
 
     </header>

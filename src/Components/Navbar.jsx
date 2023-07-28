@@ -6,6 +6,7 @@ const Navbar = () => {
   return (
     <nav>
         <div className='menuIcon'>
+            
             <ul className='NavbarList'>
                 <li>
                     <NavLink to="/">Home</NavLink>
