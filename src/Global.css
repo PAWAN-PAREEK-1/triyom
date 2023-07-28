@@ -19,7 +19,7 @@
 
 .btn a {
     color: #FFF;
-    font-family:var(--Playfair);
+    font-family:var(--play);
     font-size: 1.25rem;
     font-style: normal;
     font-weight: 700;
@@ -41,7 +41,7 @@
 }
 .index-hero h4{
     color: var(--black-2, #333);
-font-family: Poppins;
+font-family: var(--poppins);
 font-size: 1.25rem;
 font-style: normal;
 font-weight: 600;
@@ -69,7 +69,7 @@ padding-bottom: 1.25rem;
 }
 .index-hero p{
     color: var(--black-2, #333);
-font-family: Poppins;
+font-family: var(--poppins);
 font-size: 1.25rem;
 font-style: normal;
 font-weight: 400;
@@ -85,6 +85,93 @@ padding-bottom: 2.81rem;
     width: fit-content;
 
 }
+.btn{
+    width: fit-content;
+}
 .side-btn a{
     font-size: 2rem;
+}
+.experiences{
+    background-image: url(../src/assets/img/exp-bg.svg);
+    margin-block: 6.25rem;
+    padding: 5rem 3.25rem;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    gap: 7.06rem;
+
+}
+/* .exp-left{
+    flex: 1;
+}
+.exp-right{
+    flex: 1;
+} */
+.exp-right h1{
+    color: #000;
+font-family: var(--play);
+font-size: 2.5rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+padding-bottom: 1.87rem;
+}
+.exp-right h4,.exp-right p{
+    color: #7F7F7F;
+font-family: var(--poppins);
+font-size: 1.25rem;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+text-transform: capitalize;
+padding-bottom: 0.94rem;
+}
+#right-p{
+    padding-bottom: 2.5rem !important;
+}
+.exp{
+
+box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
+position: absolute;
+text-align: center;
+
+bottom: 7.94rem;
+left: 18rem;
+/* opacity: 0.6000000238418579; */
+background-color: #FFF;
+
+
+}
+.exp-left-35{
+    background-image: url(../src/assets/img/exp-35.svg);
+background-repeat: no-repeat;
+background-size: cover !important;
+    padding: 1.25rem 1.88rem;
+
+
+
+
+}
+.exp-left-35 h1{
+    color: #BA9778;
+font-family: var(--poppins);
+font-size: 3.625rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.00313rem;
+text-transform: uppercase;
+}
+.exp-left-35 h4{
+    color: #000;
+font-family: Barlow;
+font-size: 1.5rem;
+font-style: normal;
+font-weight: 700;
+line-height: 140.5%; /* 2.1075rem */
+letter-spacing: 0.00313rem;
+text-transform: uppercase;
+}
+.experiences{
+    position: relative;
 }
