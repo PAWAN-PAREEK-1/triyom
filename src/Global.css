@@ -175,3 +175,82 @@ text-transform: uppercase;
 .experiences{
     position: relative;
 }
+.triyom{
+    padding: 1rem 3.25rem;
+    display: flex;
+
+}
+.triyom-left{
+    background-color: #F7F7F7;
+
+    padding: 3.75rem 4.37rem;
+}
+.triyom-left h3{
+    display: inline-flex;
+    align-items: center;
+    gap: 1.25rem;
+}
+.triyom-left hr{
+    width: 6.25rem;
+height: 0.125rem;
+background: #BA9778;
+}
+.triyom-left h3{
+    color: #000;
+font-family: var(--play);
+font-size: 2.5rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+padding-bottom: 0.63rem;
+}
+.triyom-left p{
+    color: #000;
+font-family: var(--poppins);
+font-size: 1.25rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+padding-bottom: 1.88rem;
+}
+.triyom-right{
+    /* flex: 1; */
+    width: 50%;
+    overflow: hidden;
+
+}
+.triyom-right img{
+    height: 100%;
+}
+.flat-detail{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-block: 0.72rem;
+    border-top: 0.09rem solid #D3C7BD;
+    border-bottom:0.09rem solid #D3C7BD ;
+}
+.flat-detail h2{
+    display: inline-flex;
+    align-items: center;
+    gap: 0.62rem;
+    color: var(--dark-black, #191919);
+font-family: var(--poppins);
+font-size: 1.25rem;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.flat-detail h3{
+    color: var(--dark-black, #191919);
+text-align: right;
+font-family: var(--poppins);
+font-size: 1rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+padding-bottom: 0;
+}
+.triyom-btn{
+    margin-top: 2.5rem;
+}
