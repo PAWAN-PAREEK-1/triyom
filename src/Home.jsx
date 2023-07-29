@@ -84,7 +84,7 @@ const Home = () => {
             <div className="flat-detail">
               <h2><img src="../src/assets/img/building.svg" alt="" />6 Towers</h2>
               <h3>156 Units</h3>
-            </div> 
+            </div>
             <div className="btn triyom-btn" >
             <a href="#">
               Visit Now <img src={rightarrow} alt="" />
