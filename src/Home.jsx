@@ -4,6 +4,7 @@ import Button from "../src/Components/Button";
 import rightarrow from "../src/assets/img/rightarrow.svg";
 import "./Components/header.css";
 import TriyomSection from "./Components/TriyomSection";
+import ProjectInfo from "./Components/ProjectInfo";
 
 const Home = () => {
   return (
@@ -64,6 +65,8 @@ const Home = () => {
       </section>
 
       <TriyomSection />
+
+      <ProjectInfo/>
     </section>
   );
 };

@@ -266,7 +266,7 @@ padding-bottom: 0;
 
 .circel span  {
     padding: 0.5rem;
-    background-color: #F7F7F7;
+    background-color: #D9D9D9;
     border-radius: 50%;
     cursor: pointer;
 }
@@ -274,3 +274,80 @@ padding-bottom: 0;
 .circel span:active {
   background-color: #BA9778;
 }
+.Project{
+    margin-block: 5rem;
+    opacity: 0.800000011920929;
+background: #F7F7F7;
+padding: 3.25rem;
+}
+
+.Project h1{
+    color: #000;
+text-align: center;
+font-family: var(--play);
+font-size: 2.5rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-align: center;
+}
+.project-card{
+    background-color: #fff;
+    padding: 1.88rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap:0.65rem;
+    width: calc(33.33% - 10px); /* Adjust as needed */
+    margin-bottom: 20px;
+
+
+
+
+}
+.project-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+   margin-top: 3.12rem;
+  }
+  .project-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .project-card h4{
+    color: var(--primery, #BA9778);
+font-family: var(--poppins);
+font-size: 1.25rem;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+padding-top: 0.30rem;
+  }
+  .project-card h3{
+    color: var(--dark-black, #191919);
+font-family: var(--play);
+font-size: 1.875rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+  }
+  .project-card p{
+    color: var(--gray, #7F7F7F);
+font-family: var(--poppins);
+font-size: 1.25rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+  }
+  .project-card:hover{
+    background-color: #BA9778;
+
+  }
+  .project-card:hover h4,.project-card:hover h3,.project-card:hover p{
+    color: white;
+  }
