@@ -77,9 +77,9 @@ function TriyomSection() {
     </div>
 
     <div className="circel">
-    <a href=""><span></span></a>
-      <a href=""><span></span></a>
-      <a href=""><span></span></a>
+    <span></span>
+    <span></span>
+    <span></span>
     </div>
     </section>
   );

@@ -265,7 +265,7 @@ padding-bottom: 0;
 }
 
 .circel span  {
-    padding: 4px 13px;
+    padding: 0.8rem;
     background-color: red;
     border-radius: 50%;
 }
