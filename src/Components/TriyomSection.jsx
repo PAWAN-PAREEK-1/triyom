@@ -140,7 +140,7 @@ function TriyomSection() {
 
       <div className="circel">
         {slides.map((_, i) => (
-             <span onClick={() => setActiveSlide(i) }key={i}></span>
+             <span className={activeSlide === i ? "active" : ""} onClick={() => setActiveSlide(i) }key={i}></span>
         ))}
 
       </div>

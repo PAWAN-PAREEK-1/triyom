@@ -265,8 +265,12 @@ padding-bottom: 0;
 }
 
 .circel span  {
-    padding: 0.8rem;
-    background-color: red;
+    padding: 0.5rem;
+    background-color: #F7F7F7;
     border-radius: 50%;
     cursor: pointer;
+}
+.circel span.active,
+.circel span:active {
+  background-color: #BA9778;
 }
