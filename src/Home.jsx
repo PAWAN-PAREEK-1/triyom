@@ -3,6 +3,7 @@ import "./Global.css";
 import Button from "../src/Components/Button";
 import rightarrow from "../src/assets/img/rightarrow.svg";
 import "./Components/header.css";
+import TriyomSection from "./Components/TriyomSection";
 
 const Home = () => {
   return (
@@ -61,7 +62,8 @@ const Home = () => {
           </div>
         </div>
       </section>
-      <section className="triyom">
+      {/* <section className="triyomsec">
+      <div className="triyom">
         <div className="triyom-left">
                 <h3><hr />Triyom Casa</h3>
                 <p>Site: Opp. Autograph Club, Near Diamond Bourse, Abhva Chokdi, Surat</p>
@@ -97,7 +99,17 @@ const Home = () => {
           <img src="../src/assets/img/triyom-hero.svg" alt="" />
 
         </div>
-      </section>
+
+
+      </div>
+
+      <div className="circel">
+        <a href=""></a>
+        <a href=""></a>
+        <a href=""></a>
+      </div>
+      </section> */}
+      <TriyomSection />
     </section>
   );
 };

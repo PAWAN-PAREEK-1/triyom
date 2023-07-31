@@ -254,3 +254,18 @@ padding-bottom: 0;
 .triyom-btn{
     margin-top: 2.5rem;
 }
+
+
+
+.circel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.circel span  {
+    padding: 4px 13px;
+    background-color: red;
+    border-radius: 50%;
+}
