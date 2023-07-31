@@ -268,4 +268,5 @@ padding-bottom: 0;
     padding: 0.8rem;
     background-color: red;
     border-radius: 50%;
+    cursor: pointer;
 }

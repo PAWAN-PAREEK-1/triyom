@@ -62,53 +62,7 @@ const Home = () => {
           </div>
         </div>
       </section>
-      {/* <section className="triyomsec">
-      <div className="triyom">
-        <div className="triyom-left">
-                <h3><hr />Triyom Casa</h3>
-                <p>Site: Opp. Autograph Club, Near Diamond Bourse, Abhva Chokdi, Surat</p>
-            <div className="flat-detail">
-              <h2><img src="../src/assets/img/building.svg" alt="" />6 Towers</h2>
-              <h3>156 Units</h3>
-            </div>
-            <div className="flat-detail">
-              <h2><img src="../src/assets/img/building.svg" alt="" />6 Towers</h2>
-              <h3>156 Units</h3>
-            </div>
-            <div className="flat-detail">
-              <h2><img src="../src/assets/img/building.svg" alt="" />6 Towers</h2>
-              <h3>156 Units</h3>
-            </div>
-            <div className="flat-detail">
-              <h2><img src="../src/assets/img/building.svg" alt="" />6 Towers</h2>
-              <h3>156 Units</h3>
-            </div>
-            <div className="flat-detail">
-              <h2><img src="../src/assets/img/building.svg" alt="" />6 Towers</h2>
-              <h3>156 Units</h3>
-            </div>
-            <div className="btn triyom-btn" >
-            <a href="#">
-              Visit Now <img src={rightarrow} alt="" />
-            </a>
-          </div>
 
-
-        </div>
-        <div className="triyom-right">
-          <img src="../src/assets/img/triyom-hero.svg" alt="" />
-
-        </div>
-
-
-      </div>
-
-      <div className="circel">
-        <a href=""></a>
-        <a href=""></a>
-        <a href=""></a>
-      </div>
-      </section> */}
       <TriyomSection />
     </section>
   );

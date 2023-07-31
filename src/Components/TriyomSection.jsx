@@ -1,92 +1,151 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from "react";
 import rightarrow from "../assets/img/rightarrow.svg";
 import "../Global.css";
+
 // ... Other imports ...
 
 function TriyomSection() {
-  // State to store the data for the first circle
-  const [circle1Data, setCircle1Data] = useState({
-    towers: '6 Towers',
-    units: '156 Units',
-  });
+      const [activeSlide,setActiveSlide]= useState(0)
+      const slides = [
 
-  // State to store the data for the second circle
-  const [circle2Data, setCircle2Data] = useState({
-    towers: '6 Towers',
-    units: '156 Units',
-  });
+        {
+          img1:"../assets/img/Buildings.svg",
+         row1:"6 Towers",
+         unit1:"152 Units",
+         img2:"../assets/img/home.svg",
+         row2:"3 BHK",
+         unit2:"104 Units",
+         img3:"../assets/img/penthouse.svg",
 
-  // Function to change the data in the first circle
-  const handleClickFirstCircle = () => {
-    setCircle1Data((prevData) => ({
-      ...prevData,
-      towers: 'New Towers',
-      units: '15',
-    }));
-  };
+         row3:"Penthouse",
+         unit3:"04 Units",
+         img4:"../assets/img/home.svg",
+         row4:"4 BHK",
+         unit4:"44 Units",
+         img5:"../assets/img/garden.svg",
+         row5:"Garden",
+         unit5:"12K+Sq Ft",
+         title:"Triyom Casa1",
+         add:" Site: Opp. Autograph Club, Near Diamond Bourse, Abhva Chokdi, Surat",
+         project:"../assets/img/triyom-hero.svg"
 
-  // Function to change the data in the second circle
-  const handleClickSecondCircle = () => {
-    setCircle2Data((prevData) => ({
-      ...prevData,
-      towers: 'New Towers gjgj',
-      units: '1556',
-    }));
-  };
+
+
+        },
+        {
+          img1:"../assets/img/Buildings.svg",
+         row1:"7 Towers",
+         unit1:"152 Units",
+         img2:"../assets/img/home.svg",
+         row2:"3 BHK",
+         unit2:"104 Units",
+         img3:"../assets/img/penthouse.svg",
+
+         row3:"Penthouse",
+         unit3:"04 Units",
+         img4:"../assets/img/home.svg",
+         row4:"4 BHK",
+         unit4:"44 Units",
+         img5:"../assets/img/garden.svg",
+         row5:"Garden",
+         unit5:"12K+Sq Ft",
+         title:"Triyom Casa1",
+         add:" Site: Opp. Autograph Club, Near Diamond Bourse, Abhva Chokdi, Surat",
+         project:"../assets/img/triyom-hero.svg"
+
+
+         },
+         {
+          img1:"../assets/img/Buildings.svg",
+         row1:"8 Towers",
+         unit1:"152 Units",
+         img2:"../assets/img/home.svg",
+         row2:"3 BHK",
+         unit2:"104 Units",
+         img3:"../assets/img/penthouse.svg",
+
+         row3:"Penthouse",
+         unit3:"04 Units",
+         img4:"../assets/img/home.svg",
+         row4:"4 BHK",
+         unit4:"44 Units",
+         img5:"../assets/img/garden.svg",
+         row5:"Garden",
+         unit5:"12K+Sq Ft",
+         title:"Triyom Casa3",
+         add:" Site: Opp. Autograph Club, Near Diamond Bourse, Abhva Chokdi, Surat",
+         project:"../assets/img/triyom-hero.svg"
+
+
+         }
+      ]
+
+
 
   return (
     <section className="triyomsec">
-    <div className="triyom">
-      <div className="triyom-left">
-              <h3><hr />Triyom Casa</h3>
-              <p>Site: Opp. Autograph Club, Near Diamond Bourse, Abhva Chokdi, Surat</p>
-          <div className="flat-detail">
-            <h2><img src="../src/assets/img/building.svg" alt="" />6 Towers</h2>
-            <h3>156 Units</h3>
+      <div className="triyom">
+        <div className="triyom-left">
+          <h3>
+            <hr />
+            {slides[activeSlide].title}
+          </h3>
+          <p>
+          {slides[activeSlide].add}
+          </p>
+
+           <div  className="flat-detail">
+              <h2>
+                <img src={slides[activeSlide].img1} alt="" />{slides[activeSlide].row1}
+              </h2>
+              <h3>{slides[activeSlide].unit1}</h3>
+            </div>
+            <div  className="flat-detail">
+              <h2>
+                <img src={slides[activeSlide].img2} alt="" />{slides[activeSlide].row2}
+              </h2>
+              <h3>{slides[activeSlide].unit2}</h3>
+            </div>
+            <div  className="flat-detail">
+              <h2>
+                <img src={slides[activeSlide].img3} alt="" />{slides[activeSlide].row3}
+              </h2>
+              <h3>{slides[activeSlide].unit3}</h3>
+            </div>
+            <div  className="flat-detail">
+              <h2>
+                <img src={slides[activeSlide].img4} alt="" />{slides[activeSlide].row4}
+              </h2>
+              <h3>{slides[activeSlide].unit4}</h3>
+            </div>
+            <div  className="flat-detail">
+              <h2>
+                <img src={slides[activeSlide].img5} alt="" />{slides[activeSlide].row5}
+              </h2>
+              <h3>{slides[activeSlide].unit5}</h3>
+            </div>
+
+
+
+          <div className="btn triyom-btn">
+            <a href="#">
+              Visit Now <img src={rightarrow} alt="" />
+            </a>
           </div>
-          <div className="flat-detail">
-            <h2><img src="../src/assets/img/building.svg" alt="" />6 Towers</h2>
-            <h3>156 Units</h3>
-          </div>
-          <div className="flat-detail">
-            <h2><img src="../src/assets/img/building.svg" alt="" />6 Towers</h2>
-            <h3>156 Units</h3>
-          </div>
-          <div className="flat-detail">
-            <h2><img src="../src/assets/img/building.svg" alt="" />6 Towers</h2>
-            <h3>156 Units</h3>
-          </div>
-          <div className="flat-detail">
-            <h2><img src="../src/assets/img/building.svg" alt="" />6 Towers</h2>
-            <h3>156 Units</h3>
-          </div>
-          <div className="btn triyom-btn" >
-          <a href="#">
-            Visit Now <img src={rightarrow} alt="" />
-          </a>
         </div>
-
-
-      </div>
-      <div className="triyom-right">
-        <img src="../src/assets/img/triyom-hero.svg" alt="" />
-
+        <div className="triyom-right">
+          <img src={slides[activeSlide].project} alt="" />
+        </div>
       </div>
 
+      <div className="circel">
+        {slides.map((_, i) => (
+             <span onClick={() => setActiveSlide(i) }key={i}></span>
+        ))}
 
-    </div>
-
-    <div className="circel">
-    <span></span>
-    <span></span>
-    <span></span>
-    </div>
+      </div>
     </section>
   );
 }
 
 export default TriyomSection;
-
-
-
-
