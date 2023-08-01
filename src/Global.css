@@ -366,13 +366,38 @@ line-height: normal;
     width: 100%;
     gap: 1rem;
   }
+  .testi-container{
+    background-color: #F7F7F7;
+    padding-block: 6.25rem;
+    position: relative;
+  }
+  #testiicon{
+    position: absolute;
+    right: 8rem;
+    top: 0;
+  }
 
+  #testibg{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    opacity: 0.05;
+  }
   .testi-center {
     display: flex;
     align-items: stretch; /* Make both image and text stretch to the same height */
     flex: 1; /* Make the center section take 100% available width */
     width: 70%;
     gap: 1rem;
+}
+.navigation{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 2rem;
+}
+.navigation img{
+    cursor: pointer;
 }
 
   .center-img {

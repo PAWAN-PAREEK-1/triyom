@@ -3,6 +3,8 @@ import React from "react";
 const Testimonial = () => {
   return (
     <div className="testi-container">
+      <img src="../assets/img/testibg.svg" alt="" id="testibg"/>
+      <img src="../assets/img/testiicon.svg" alt="" id="testiicon"/>
       <div className="testi-info">
         <div className="testi-right">
           <img src="../assets/img/rev2.svg" alt="" className="side-img"/>
@@ -30,6 +32,10 @@ const Testimonial = () => {
         <div className="testi-left">
           <img src="../assets/img/rev3.svg" alt="" className="side-img"/>
         </div>
+      </div>
+      <div className="navigation">
+        <img src="../assets/img/leftarrow.svg" alt="" />
+        <img src="../assets/img/rightarrow.svg" alt="" />
       </div>
     </div>
   );
