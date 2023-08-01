@@ -382,6 +382,10 @@ line-height: normal;
     bottom: 0;
     right: 0;
     opacity: 0.05;
+
+  }
+  .navigation img{
+    z-index: 999;
   }
   .testi-center {
     display: flex;
@@ -395,6 +399,7 @@ line-height: normal;
     align-items: center;
     justify-content: space-around;
     padding-top: 2rem;
+
 }
 .navigation img{
     cursor: pointer;
