@@ -1,36 +1,48 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 
 const Testimonial = () => {
   const testimonialData = [
     {
-      testidec: "",
-      testiname: "huhhi",
-      testipost: "",
+      testidec:
+        "Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.Lorem Ipsum passage, and going through the cites of the word ites of the word in classical literature, discovered the undoubtable source.Lorem Ipsum passage, and going through the cites of the word in classical literature, Lorem Ipsum passage, and going through the cites sical literature,he word in classical literature, Lorem Ipsum passage, and going through the cites sical literature ",
+      testiname: "Phillip Franci",
+      testipost: "Selling Agents",
       testiimg: "../assets/img/rev1.svg",
-      
     },
     {
-      testidec: "",
-      testiname: "hujhjhbhhi",
-      testipost: "",
+      testidec:
+        "Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.Lorem Ipsum passage, and going through the cites of the word ites of the word in classical literature, discovered the undoubtable source.Lorem Ipsum passage, and going through the cites of the word in classical literature, Lorem Ipsum passage, and going through the cites sical literature,he word in classical literature, Lorem Ipsum passage, and going through the cites sical literature ",
+      testiname: "aaditya singha",
+      testipost: "safai karmchari",
       testiimg: "../assets/img/rev2.svg",
     },
     {
-      testidec: "",
-      testiname: "hujhj5hbhhi",
-      testipost: "",
+      testidec:
+        "Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.Lorem Ipsum passage, and going through the cites of the word ites of the word in classical literature, discovered the undoubtable source.Lorem Ipsum passage, and going through the cites of the word in classical literature, Lorem Ipsum passage, and going through the cites sical literature,he word in classical literature, Lorem Ipsum passage, and going through the cites sical literature ",
+      testiname: "aastha malhar",
+      testipost: "gatar karmchari",
       testiimg: "../assets/img/rev3.svg",
     },
     {
-      testidec: "",
-      testiname: "",
-      testipost: "",
+      testidec:
+        "Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.Lorem Ipsum passage, and going through the cites of the word ites of the word in classical literature, discovered the undoubtable source.Lorem Ipsum passage, and going through the cites of the word in classical literature, Lorem Ipsum passage, and going through the cites sical literature,he word in classical literature, Lorem Ipsum passage, and going through the cites sical literature ",
+     testiname: "dipika paadukon",
+      testipost: "sns karmachari",
       testiimg: "../assets/img/rev2.svg",
     },
   ];
 
-
   const [currentIndex, setCurrentIndex] = useState(0);
+  const [prevIndex, setPrevIndex] = useState(null);
+  const [nextIndex, setNextIndex] = useState(null);
+
+  useEffect(() => {
+    const lastIndex = testimonialData.length - 1;
+    setPrevIndex(
+      (currentIndex - 1 + testimonialData.length) % testimonialData.length
+    );
+    setNextIndex((currentIndex + 1) % testimonialData.length);
+  }, [currentIndex, testimonialData]);
 
   const handleNext = () => {
     setCurrentIndex((prevIndex) => (prevIndex + 1) % testimonialData.length);
@@ -43,11 +55,17 @@ const Testimonial = () => {
   };
   return (
     <div className="testi-container">
-      <img src="../assets/img/testibg.svg" alt="" id="testibg"/>
-      <img src="../assets/img/testiicon.svg" alt="" id="testiicon"/>
+      <img src="../assets/img/testibg.svg" alt="" id="testibg" />
+      <img src="../assets/img/testiicon.svg" alt="" id="testiicon" />
       <div className="testi-info">
         <div className="testi-right">
-          <img src="../assets/img/rev2.svg" alt="" className="side-img"/>
+          {prevIndex !== null && (
+            <img
+              src={testimonialData[prevIndex].testiimg}
+              alt=""
+              className="side-img"
+            />
+          )}
         </div>
         <div className="testi-center">
           <div className="center-img">
@@ -55,19 +73,23 @@ const Testimonial = () => {
           </div>
           <div className="testi-detail">
             <h2>Teatimonial</h2>
-            <p>
-            {testimonialData[currentIndex].testidec}
-              </p>
+            <p>{testimonialData[currentIndex].testidec}</p>
             <h1>{testimonialData[currentIndex].testiname}</h1>
             <h3>{testimonialData[currentIndex].testipost}</h3>
           </div>
         </div>
         <div className="testi-left">
-          <img src="../assets/img/rev3.svg" alt="" className="side-img"/>
+          {nextIndex !== null && (
+            <img
+              src={testimonialData[nextIndex].testiimg}
+              alt=""
+              className="side-img"
+            />
+          )}
         </div>
       </div>
       <div className="navigation">
-      <img
+        <img
           src="../assets/img/leftarrow.svg"
           alt=""
           onClick={handlePrev}
