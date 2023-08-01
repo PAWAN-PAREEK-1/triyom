@@ -1,65 +1,65 @@
-import React from 'react'
-import "../Global.css";
-import OwlCarousel from 'react-owl-carousel';
+import { Navigation, Pagination, Scrollbar, A11y, EffectCoverflow } from 'swiper/modules';
 
-const Testimonial = () => {
+import { Swiper, SwiperSlide } from 'swiper/react';
+
+// Import Swiper styles
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+import 'swiper/css/scrollbar';
+
+export default () => {
   return (
-    <section className="testimonials">
-        <div className="container">
-          <div className="row">
-            <div className="col-sm-12">
-              <div id="customers-testimonials" className="owl-carousel">
-                {/*TESTIMONIAL 1 */}
-                <div className="item">
-                  <div className="shadow-effect">
-                    <img className="img-circle" src="http://themes.audemedia.com/html/goodgrowth/images/testimonial3.jpg" alt="" />
-                    <p>Dramatically maintain clicks-and-mortar solutions without functional solutions. Completely synergize resource taxing relationships via premier niche markets. Professionally cultivate.</p>
-                  </div>
-                  <div className="testimonial-name">EMILIANO AQUILANI</div>
-                </div>
-                {/*END OF TESTIMONIAL 1 */}
-                {/*TESTIMONIAL 2 */}
-                <div className="item">
-                  <div className="shadow-effect">
-                    <img className="img-circle" src="http://themes.audemedia.com/html/goodgrowth/images/testimonial3.jpg" alt="" />
-                    <p>Dramatically maintain clicks-and-mortar solutions without functional solutions. Completely synergize resource taxing relationships via premier niche markets. Professionally cultivate.</p>
-                  </div>
-                  <div className="testimonial-name">ANNA ITURBE</div>
-                </div>
-                {/*END OF TESTIMONIAL 2 */}
-                {/*TESTIMONIAL 3 */}
-                <div className="item">
-                  <div className="shadow-effect">
-                    <img className="img-circle" src="http://themes.audemedia.com/html/goodgrowth/images/testimonial3.jpg" alt="" />
-                    <p>Dramatically maintain clicks-and-mortar solutions without functional solutions. Completely synergize resource taxing relationships via premier niche markets. Professionally cultivate.</p>
-                  </div>
-                  <div className="testimonial-name">LARA ATKINSON</div>
-                </div>
-                {/*END OF TESTIMONIAL 3 */}
-                {/*TESTIMONIAL 4 */}
-                <div className="item">
-                  <div className="shadow-effect">
-                    <img className="img-circle" src="http://themes.audemedia.com/html/goodgrowth/images/testimonial3.jpg" alt="" />
-                    <p>Dramatically maintain clicks-and-mortar solutions without functional solutions. Completely synergize resource taxing relationships via premier niche markets. Professionally cultivate.</p>
-                  </div>
-                  <div className="testimonial-name">IAN OWEN</div>
-                </div>
-                {/*END OF TESTIMONIAL 4 */}
-                {/*TESTIMONIAL 5 */}
-                <div className="item">
-                  <div className="shadow-effect">
-                    <img className="img-circle" src="http://themes.audemedia.com/html/goodgrowth/images/testimonial3.jpg" alt="" />
-                    <p>Dramatically maintain clicks-and-mortar solutions without functional solutions. Completely synergize resource taxing relationships via premier niche markets. Professionally cultivate.</p>
-                  </div>
-                  <div className="testimonial-name">MICHAEL TEDDY</div>
-                </div>
-                {/*END OF TESTIMONIAL 5 */}
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-  )
-}
+   <div className="testimonial">
+    <Swiper
+    effect={'coverflow'}
+    grabCursor={true}
+    centeredSlides={true}
+    loop={true}
+    slidesPerView={'auto'}
+    coverflowEffect={
+      {
+        rotateLeft:0,
+        stretchWidth:0,
+        depth:100,
+        modifiers: 2.5,
 
-export default Testimonial
+      }
+
+    }
+    pagination={{el:".swiper-pagination",clickable:true}}
+    navigation={{
+      nextEl:".swiper-button-next",
+      prevEl:".swiper-button-prev",
+      clickable:true,
+    }}
+    className="Swiper-container"
+    modules={[EffectCoverflow,Pagination,Navigation]}
+    >
+      <SwiperSlide>
+        <img src="../assets/img/rev1.svg" alt="" />
+      </SwiperSlide>
+      <SwiperSlide>
+        <img src="../assets/img/rev1.svg" alt="" />
+      </SwiperSlide>
+      <SwiperSlide>
+        <img src="../assets/img/rev1.svg" alt="" />
+      </SwiperSlide>
+
+
+      <div className="slider-controler">
+        <div className="swiper-button-prev slider-arrow">
+          <ion-icon name="arrow-back-outline"></ion-icon>
+
+        </div>
+        <div className="swiper-button-next slider-arrow">
+          <ion-icon name="arrow-forward-outline"></ion-icon>
+
+        </div>
+        <div className="swiper-pagination"></div>
+      </div>
+
+    </Swiper>
+   </div>
+  );
+};
