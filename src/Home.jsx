@@ -5,6 +5,7 @@ import rightarrow from "../src/assets/img/rightarrow.svg";
 import "./Components/header.css";
 import TriyomSection from "./Components/TriyomSection";
 import ProjectInfo from "./Components/ProjectInfo";
+import Testimonial from "./Components/Testimonial.jsx";
 
 const Home = () => {
   return (
@@ -67,6 +68,7 @@ const Home = () => {
       <TriyomSection />
 
       <ProjectInfo/>
+      <Testimonial/>
     </section>
   );
 };
