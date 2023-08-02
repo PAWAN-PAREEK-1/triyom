@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "./Benifits.css";
 import rightarrow from "../assets/img/rightarrow.svg";
 import Downarrow from "/public/assets/img/downarrow.svg";
+import uparrow from "/public/assets/img/uparrow.svg";
 
 const Benifits = () => {
   const businessCenters = [
@@ -48,8 +49,8 @@ const Benifits = () => {
                     </div>
                   </span>
                   <div className="bg-head1">
-                    <img src={Downarrow} alt="" />
-                  </div>
+                      <img src={openFAQ === index ? uparrow : Downarrow} alt="" />
+                    </div>
                 </div>
                 {openFAQ === index && (
                   <div>
