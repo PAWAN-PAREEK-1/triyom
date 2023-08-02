@@ -1,0 +1,53 @@
+:root{
+    --poppins:'Poppins', sans-serif;
+    --play: 'Playfair Display', serif;
+}
+.faq-item2{
+    padding: 1rem 1rem !important;
+}
+.detail-faq{
+    flex-direction: row-reverse;
+}
+.hero-faq,.be-faq{
+    flex: 1;
+    width: 50%;
+}
+.be-detail-faq{
+    /* padding: 0.5rem; */
+    background: #FFF;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.15);
+    margin-block: 1.5rem;
+    padding:0.62rem 1.25rem;
+}
+.benifits-faq{
+    background:none;
+}
+.bg-head-faq h1{
+    color: var(--dark-black, #191919);
+font-family: var(--poppins);
+font-size: 1.25rem;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.title-faq{
+    flex-direction: column;
+}
+#title-dec{
+    color: var(--gray, #7F7F7F);
+font-family: var(--poppins);
+font-size: 1.25rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.title-faq h1{
+    color: #000;
+
+font-family: var(--play);
+font-size: 2.5rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+padding-bottom: 0.94rem;
+}
