@@ -8,6 +8,7 @@ import ProjectInfo from "./Components/ProjectInfo";
 import Testimonial from "./Components/Testimonial.jsx";
 import Benifits from "./Components/Benifits.jsx";
 import Faq from "./Components/Faq.jsx";
+import Form from "./Components/form";
 
 const Home = () => {
   return (
@@ -73,6 +74,7 @@ const Home = () => {
       <Testimonial/>
       <Benifits/>
       <Faq/>
+      <Form/>
     </section>
   );
 };
