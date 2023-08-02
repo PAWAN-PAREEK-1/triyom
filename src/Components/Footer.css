@@ -1,0 +1,95 @@
+/* Footer.css */
+
+/* Style the footer container */
+footer {
+    background-color: #191919;
+    color: #fff;
+
+  }
+
+
+.image-slider {
+    display: flex;
+  overflow: auto;
+    margin-bottom: 20px;
+  }
+
+  .image-slider img {
+    width: 100%;
+    height: auto;
+    overflow: auto;
+
+  }
+
+  .image-slider img.active {
+    opacity: 1;
+  }
+  /* Style the logo */
+  .logo {
+    text-align: center;
+    /* Add styles for the logo image */
+  }
+
+  /* Style the links */
+  .links {
+    text-align: center;
+    /* Add styles for the links */
+  }
+
+  /* Style the copyright text */
+  .copyright {
+    text-align: center;
+    /* Add styles for the copyright text */
+  }
+
+  /* Media query for tablets */
+  @media (max-width: 768px) {
+    .footer-content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+
+  /* Media query for mobile phones */
+  @media (max-width: 576px) {
+    .image-slider {
+      /* Adjust styles for mobile phones or hide the slider */
+    }
+  }
+
+  Footer hr{
+    width: 120rem;
+height: 0.0625rem;
+opacity: 0.20000000298023224;
+background: #FFF;
+margin-block: 2rem;
+  }
+  .links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .links hr{
+margin-inline: 1.88rem;
+width: 0.0625rem;
+height: 0.75rem;
+  }
+  .links span{
+    color: var(--gray, #7F7F7F);
+font-family: Poppins;
+font-size: 1.25rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-transform: capitalize;
+  }
+  .copyright{
+    color: var(--gray, #7F7F7F);
+font-family: Poppins;
+font-size: 1.25rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-transform: capitalize;
+  }

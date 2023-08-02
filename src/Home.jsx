@@ -75,6 +75,7 @@ const Home = () => {
       <Benifits/>
       <Faq/>
       <Form/>
+      
     </section>
   );
 };
