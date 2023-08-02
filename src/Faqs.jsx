@@ -1,21 +1,23 @@
 import React from "react";
 import "./Global.css";
-
 import Testimonial from "./Components/Testimonial.jsx";
 import Benifits from "./Components/Benifits.jsx";
 import Faq from "./Components/Faq.jsx";
 import Form from "./Components/form";
-const Contact = () => {
+const Faqs = () => {
   return (
     <div>
 
+
 <section className="index-hero about-hero">
-        <h1>Contact</h1>
+        <h1>Faqs</h1>
       </section>
+
+      <Faq/>
+      <Benifits/>
+
+      <Testimonial/>
       <Form/>
-     <Faq/>
-     <Benifits/>
-     <Testimonial/>
 
 
 
@@ -24,4 +26,4 @@ const Contact = () => {
   )
 }
 
-export default Contact
+export default Faqs

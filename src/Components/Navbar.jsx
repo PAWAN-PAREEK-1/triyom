@@ -6,7 +6,7 @@ const Navbar = () => {
   return (
     <nav>
         <div className='menuIcon'>
-            
+
             <ul className='NavbarList'>
                 <li>
                     <NavLink to="/">Home</NavLink>
@@ -15,22 +15,22 @@ const Navbar = () => {
                     <NavLink to="/About">About us</NavLink>
                 </li>
                 <li>
-                    <NavLink to="/Contact">Projects</NavLink>
+                    <NavLink to="/Project">Projects</NavLink>
                 </li>
                 <li>
-                    <NavLink to="/Services">facilities</NavLink>
+                    <NavLink to="/Facilities">facilities</NavLink>
                 </li>
                 <li>
-                    <NavLink to="/">Reviews</NavLink>
+                    <NavLink to="/Reviews">Reviews</NavLink>
                 </li>
                 <li>
-                    <NavLink to="/About">Gallary</NavLink>
+                    <NavLink to="/Gallery">Gallary</NavLink>
                 </li>
                 <li>
-                    <NavLink to="/Contact">FAQs</NavLink>
+                    <NavLink to="/Faqs">FAQs</NavLink>
                 </li>
                 <li>
-                    <NavLink to="/Services">Contact Us</NavLink>
+                    <NavLink to="/Contact">Contact Us</NavLink>
                 </li>
             </ul>
 

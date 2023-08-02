@@ -43,11 +43,11 @@ const Footer = () => {
           <Link to="/"><span>Home</span></Link><hr />
           <Link to="/about"><span>About Us</span></Link><hr />
          <Link to="/Projects"><span>Projects</span></Link><hr />
-          <Link to="/"><span>Facilities</span></Link><hr />
-          <Link to="/about"><span>Reviews</span></Link><hr />
-           <Link to="/Projects"><span>Gallary</span></Link><hr />
-          <Link to="/about"><span>FAQs</span></Link><hr />
-           <Link to="/Projects"><span>Contact Us</span></Link>
+          <Link to="/Facilities"><span>Facilities</span></Link><hr />
+          <Link to="/Reviews"><span>Reviews</span></Link><hr />
+           <Link to="/Gallary"><span>Gallary</span></Link><hr />
+          <Link to="/FAQs"><span>FAQs</span></Link><hr />
+           <Link to="/Contact"><span>Contact Us</span></Link>
           {/* Add more links as needed */}
         </div>
         <hr />

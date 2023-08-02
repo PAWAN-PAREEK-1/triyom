@@ -1,10 +1,14 @@
 import React from 'react'
 import Home from './home'
 import About from './About'
-import Services from './Services'
+import Facilities from './facilities'
 import Contact from './Contact'
+import Project from './Project'
+import Reviews from './Reviews'
+import Gallery from './Gallery'
 import Header from './Components/Header'
 import Footer from './Components/Footer'
+import Faqs from './Faqs'
 import {BrowserRouter,Routes,Route} from "react-router-dom";
 import "./Global.css";
 
@@ -21,8 +25,13 @@ const App = () => {
   <Routes>
     <Route path="/" element={<Home/>}/>
     <Route path="/About" element={<About/>}/>
-   < Route path="/Contact" element={<Contact/>}/>
-   <Route path="/Services" element={<Services/>}/>
+   < Route path="/Project" element={<Project/>}/>
+   <Route path="/Facilities" element={<Facilities/>}/>
+   <Route path="/Reviews" element={<Reviews/>}/>
+   <Route path="/Gallery" element={<Gallery/>}/>
+   <Route path="/Faqs" element={<Faqs/>}/>
+   <Route path="/Gallery" element={<Gallery/>}/>
+   <Route path="/Contact" element={<Contact/>}/>
   </Routes>
   <Footer/>
   </BrowserRouter>

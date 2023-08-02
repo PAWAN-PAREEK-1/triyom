@@ -6,11 +6,11 @@ import Benifits from "./Components/Benifits.jsx";
 import Faq from "./Components/Faq.jsx";
 import Form from "./Components/form";
 
-const About = () => {
+const Project = () => {
   return (
     <div>
       <section className="index-hero about-hero">
-        <h1>About Us</h1>
+        <h1>Projects</h1>
       </section>
       <section className="experiences">
         <div className="exp-left">
@@ -56,4 +56,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default Project;

@@ -2,6 +2,7 @@
     padding:0;
     margin: 0;
     box-sizing: border-box;
+    /* overflow-x: hidden; */
 
 }
 :root{
@@ -467,4 +468,8 @@ font-size: 1.25rem;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
+  }
+  .about-hero{
+    background-size: cover;
+    background-position: 100%;
   }
