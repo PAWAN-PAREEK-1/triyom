@@ -1,53 +1,111 @@
-:root{
-    --poppins:'Poppins', sans-serif;
+:root {
+    --poppins: 'Poppins', sans-serif;
     --play: 'Playfair Display', serif;
 }
-.faq-item2{
+
+.faq-item2 {
     padding: 1rem 1rem !important;
 }
-.detail-faq{
+
+.detail-faq {
     flex-direction: row-reverse;
+    gap: 6.25rem;
+    padding: 0;
 }
-.hero-faq,.be-faq{
+
+.hero-faq,
+.be-faq {
     flex: 1;
     width: 50%;
 }
-.be-detail-faq{
+
+.hero-faq {
+    position: relative;
+}
+
+.be-detail-faq {
     /* padding: 0.5rem; */
     background: #FFF;
     box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.15);
     margin-block: 1.5rem;
-    padding:0.62rem 1.25rem;
+    padding: 0.62rem 1.25rem;
 }
-.benifits-faq{
-    background:none;
+
+.benifits-faq {
+    background: none;
+    position: relative;
+    margin-block: 0 !important;
 }
-.bg-head-faq h1{
+
+.bg-head-faq h1 {
     color: var(--dark-black, #191919);
-font-family: var(--poppins);
-font-size: 1.25rem;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
+    font-family: var(--poppins);
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
 }
-.title-faq{
+
+.title-faq {
     flex-direction: column;
 }
-#title-dec{
+
+#title-dec {
     color: var(--gray, #7F7F7F);
-font-family: var(--poppins);
-font-size: 1.25rem;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
+    font-family: var(--poppins);
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
-.title-faq h1{
+
+.title-faq h1 {
     color: #000;
 
-font-family: var(--play);
-font-size: 2.5rem;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-padding-bottom: 0.94rem;
+    font-family: var(--play);
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-bottom: 0.94rem;
+}
+
+#hero-img-faq {
+    object-fit: cover;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 62% 100%, 62% 72%, 0 72%);
+}
+
+#hero-img-faq2 {
+	object-fit: cover;
+	width: 30.875rem;
+	height: 17.0625rem;
+	position: absolute;
+	top: 25rem;
+	right: 268px;
+}
+.con-btn{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.94rem 1.25rem;
+    width: 14.25rem;
+height: 5.5625rem;
+background-color: #BA9778;
+}
+a{
+    text-decoration: none;
+}
+.con-2 h4{
+    color: var(--white, #FFF);
+    font-family: var(--poppins);
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.con-btn-1 {
+	position: absolute;
+	bottom: 103px;
+	right: 63px;
 }
