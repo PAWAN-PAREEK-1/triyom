@@ -1,0 +1,81 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+:root{
+    --poppins:'Poppins', sans-serif;
+    --play: 'Playfair Display', serif;
+}
+.title h1{
+    color: #000;
+font-family: var(--play);
+font-size: 2.75rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+span{
+    color: #BA9778;
+}
+.benifits{
+    background-color: #F7F7F7;
+    padding: 6rem 3.25rem 4.81rem;
+    margin-block: 6.25rem;
+}
+.title{
+    display: flex;
+    justify-content: space-around;
+
+}
+.detail{
+    padding-block: 3.25rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 1.25rem;
+}
+.be-detail{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.bg-head{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    align-items: center;
+}
+.bg-head h1{
+    color: #474747;
+font-family: var(--play);
+font-size: 1.875rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-transform: uppercase;
+
+}
+ .be hr{
+
+width: 31.5625rem;
+height: 0.0625rem;
+margin-block: 1.5rem;
+}
+.be-detail span{
+ cursor: pointer;
+
+}
+.open h1{
+    color: #BA9778;
+}
+.faq-item{
+    padding: 1rem 3rem;
+    color: var(--gray, #7F7F7F);
+font-family: Poppins;
+font-size: 1.25rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}

@@ -6,6 +6,7 @@ import "./Components/header.css";
 import TriyomSection from "./Components/TriyomSection";
 import ProjectInfo from "./Components/ProjectInfo";
 import Testimonial from "./Components/Testimonial.jsx";
+import Benifits from "./Components/Benifits.jsx";
 
 const Home = () => {
   return (
@@ -69,6 +70,7 @@ const Home = () => {
 
       <ProjectInfo/>
       <Testimonial/>
+      <Benifits/>
     </section>
   );
 };
