@@ -486,3 +486,70 @@ line-height: normal;
   .gallery h1{
     padding-bottom: 3.13rem;
   }
+
+
+  @media (max-width: 768px){
+    .index-hero {
+        padding: 2.31rem 0.94rem;
+
+    }
+    .index-hero h4{
+        font-size: 0.9375rem;
+    }
+    .index-hero hr{
+        background: #BA9778;
+        width: 1.5rem;
+        height: 0.125rem;
+    }
+    .index-hero h1{
+font-size: 1.5rem;
+font-weight: 700;
+    }
+    .index-hero p{
+font-size: 0.8125rem;
+font-weight: 400;
+padding-right: 1.5rem;
+    }
+    .side-btn a {
+        font-size: 0.75rem;
+    }
+    .side-btn {
+        right: -34px;
+        top: 8.81rem;
+
+    }
+    .btn a {
+        font-size: 0.875rem;
+        font-weight: 600;
+
+    }
+    .btn {
+        padding: 0.44rem 0.94rem;
+
+    }
+    #rightarrow{
+        width: 1.125rem;
+height: 1.125rem;
+    }
+    .experiences{
+        margin-block: 2.25rem;
+        flex-direction: column;
+        padding: 0.94rem;
+    }
+    .exp-left img{
+        width: 100%;
+
+    }
+    .exp-left-35 {
+        padding: 0.61rem 1.37rem;
+    }
+
+    .exp {
+       bottom: 69.94rem;
+        left: 2.7rem;
+
+        position: absolute;
+
+
+    }
+  }

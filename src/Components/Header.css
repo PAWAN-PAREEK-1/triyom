@@ -104,6 +104,19 @@ hr {
 .css-1t6c9ts{
     justify-content: center;
 }
+@media (max-width: 768px){
+    .head {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0.75rem 0.94rem;
+        background-color: #191919;
+    }
+    .info h1,.headmail hr{
+        display: none;
+
+    }
+  }
 
 
 

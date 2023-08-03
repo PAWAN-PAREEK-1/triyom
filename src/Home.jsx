@@ -29,7 +29,12 @@ const Home = () => {
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi <br />{" "}
           euismod nulla quis sollicitudin viverra.{" "}
         </p>
-        <Button />
+        <div className='btn'>
+        <a href="#">
+        Discover More <img src={rightarrow} alt="" id="rightarrow"/>
+        </a>
+
+    </div>
         <div className="btn side-btn">
           <a href="#">Book Visit</a>
         </div>
@@ -70,7 +75,7 @@ const Home = () => {
           </div>
         </div>
       </section>
-   
+
 
       <TriyomSection />
 
