@@ -31,7 +31,7 @@ const Home = () => {
         </p>
         <div className='btn'>
         <a href="#">
-        Discover More <img src={rightarrow} alt="" id="rightarrow"/>
+        Discover More <img src={rightarrow} alt="" className="rightarrow"/>
         </a>
 
     </div>
@@ -70,7 +70,7 @@ const Home = () => {
           </p>
           <div className="btn">
             <a href="#">
-              About Us <img src={rightarrow} alt="" />
+              About Us <img src={rightarrow} alt=""className="rightarrow" />
             </a>
           </div>
         </div>

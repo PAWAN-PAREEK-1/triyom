@@ -1,81 +1,216 @@
-*{
-    padding:0;
+* {
+    padding: 0;
     margin: 0;
     box-sizing: border-box;
 
 }
-:root{
-    --poppins:'Poppins', sans-serif;
+
+:root {
+    --poppins: 'Poppins', sans-serif;
     --play: 'Playfair Display', serif;
 }
-.title h1{
+
+.title h1 {
     color: #000;
-font-family: var(--play);
-font-size: 2.75rem;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
+    font-family: var(--play);
+    font-size: 2.75rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
 }
-span{
+
+span {
     color: #BA9778;
 }
-.benifits{
+
+.benifits {
     background-color: #F7F7F7;
     padding: 6rem 3.25rem 4.81rem;
     margin-top: 6.25rem;
 }
-.title{
+
+.title {
     display: flex;
     justify-content: space-around;
 
 }
-.detail{
+
+.detail {
     padding-block: 3.25rem;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     gap: 1.25rem;
 }
-.be-detail{
+
+.be-detail {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.bg-head{
+
+.bg-head {
     display: flex;
     flex-direction: row;
     gap: 1rem;
     align-items: center;
 }
-.bg-head h1{
+
+.bg-head h1 {
     color: #474747;
-font-family: var(--play);
-font-size: 1.875rem;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-text-transform: uppercase;
+    font-family: var(--play);
+    font-size: 1.875rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
 
 }
- .be hr{
 
-width: 31.5625rem;
-height: 0.0625rem;
-margin-block: 1.5rem;
+.be hr {
+
+    width: 31.5625rem;
+    height: 0.0625rem;
+    margin-block: 1.5rem;
 }
-.be-detail span{
- cursor: pointer;
+
+.be-detail span {
+    cursor: pointer;
 
 }
-.open h1{
+
+.open h1 {
     color: #BA9778;
 }
-.faq-item{
+
+.faq-item {
     padding: 1rem 3rem;
     color: var(--gray, #7F7F7F);
-font-family: Poppins;
-font-size: 1.25rem;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
+    font-family: Poppins;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+
+
+@media (max-width: 768px) {
+
+
+
+
+    .benifits {
+        padding: 0.94rem !important;
+    }
+
+    .bg-head h1 {
+        font-size: 1.125rem !important;
+        font-weight: 600 !important;
+        line-height: normal !important;
+    }
+
+    .faq-item {
+        font-size: 0.8125rem !important;
+        font-weight: 400 !important;
+        line-height: normal !important;
+    }
+
+    .be {
+        width: 100%;
+    }
+
+    .be hr {
+        width: 100% !important;
+        height: 0.0625rem !important;
+        background: #D6D6D6 !important;
+        margin-block: 0.8rem !important;
+    }
+
+    .m-display-none {
+        display: none !important;
+    }
+
+    .display {
+        display: initial !important;
+    }
+
+    .title h1 {
+        font-size: 1.25rem !important;
+        font-weight: 700 !important;
+        line-height: normal !important;
+        text-align: center;
+        padding: 0.94rem 0 2rem 0;
+    }
+
+    .detail-faq {
+        flex-direction: column !important;
+
+    }
+
+    .hero-faq,
+    .be-faq {
+        flex: 1;
+        width: 100% !important;
+    }
+
+    #hero-img-faq2 {
+        top: 14.3rem !important;
+        right: 155px !important;
+    }
+
+    #hero-img-faq2 {
+
+        right: 166px !important;
+        width: 59% !important;
+        height: 10.075rem !important;
+        bottom: 0 !important;
+        left: 0 !important;
+    }
+
+    .con-btn-1 {
+        position: absolute !important;
+
+        right: 0.94rem !important;
+        top: 31.5% !important;
+    }
+
+    .con-2 h4 {
+        font-size: 0.93rem !important;
+        font-weight: 500 !important;
+        line-height: normal !important;
+
+    }
+
+    .con-btn {
+        padding: 0.94rem 0.3rem !important;
+        height: auto !important;
+        width: fit-content !important;
+        gap: 5px;
+    }
+
+    .con-1 img {
+
+        width: 1.875rem !important;
+        height: 1.875rem !important;
+
+    }
+
+    #title-dec {
+        font-size: 0.875rem !important;
+        font-weight: 500 !important;
+        line-height: normal !important;
+    }
+
+    .bg-head-faq h1 {
+        font-size: 0.875rem !important;
+        font-weight: 500 !important;
+        line-height: normal !important;
+    }
+
+    .be-detail-faq {
+        margin-block: 0.5rem !important;
+    }
+    
 }

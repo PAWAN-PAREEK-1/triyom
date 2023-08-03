@@ -129,7 +129,7 @@ function TriyomSection() {
 
           <div className="btn triyom-btn">
             <a href="#">
-              Visit Now <img src={rightarrow} alt="" />
+              Visit Now <img src={rightarrow} alt="" className="rightarrow"/>
             </a>
           </div>
         </div>

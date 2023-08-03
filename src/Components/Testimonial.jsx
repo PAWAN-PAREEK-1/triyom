@@ -68,11 +68,13 @@ const Testimonial = () => {
           )}
         </div>
         <div className="testi-center">
+        <h2 id="testicenter">Teatimonial</h2>
           <div className="center-img">
+
             <img src={testimonialData[currentIndex].testiimg} alt="" />
           </div>
           <div className="testi-detail">
-            <h2>Teatimonial</h2>
+            <h2 id="testihead">Teatimonial</h2>
             <p>{testimonialData[currentIndex].testidec}</p>
             <h1>{testimonialData[currentIndex].testiname}</h1>
             <h3>{testimonialData[currentIndex].testipost}</h3>

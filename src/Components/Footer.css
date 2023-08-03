@@ -4,7 +4,7 @@
 footer {
     background-color: #191919;
     color: #fff;
-    overflow-x:hidden; 
+    overflow-x:hidden;
 
   }
 
@@ -93,4 +93,12 @@ font-style: normal;
 font-weight: 400;
 line-height: normal;
 text-transform: capitalize;
+  }
+  @media (max-width: 768px) {
+    Footer hr{
+      margin-block: 0.5rem;
+    }
+    footer{
+      padding: 0.94rem;
+    }
   }

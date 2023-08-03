@@ -95,4 +95,52 @@ button {
     background-color: #007bff;
     color: #fff;
   }
-  
+
+  @media (max-width: 768px){
+    .contact-form {
+        padding: 0.95rem;
+    }
+    .form-hero img{
+        width: 100%;
+
+    }
+    .form-hero h1{
+font-size: 1.25rem;
+font-weight: 700;
+line-height: normal;
+top: 2.44rem;
+left: 1.69rem;
+    }
+    .form{
+        padding: 0.95rem;
+        right: 0.25rem;
+        width: 100%;
+        margin-top: 8rem;
+    }
+    input, select{
+        padding: 0.62rem;
+    }
+    input::placeholder, select::placeholder,#you    {
+font-size: 0.875rem;
+font-weight: 400;
+line-height: normal;
+    }
+    .submit-btn{
+font-size: 0.875rem;
+font-weight: 600;
+line-height: normal;
+    }
+    .form-hero{
+        margin-bottom: 24rem;
+    }
+    .links span{
+        font-size: 0.87rem !important;
+    }
+    .links hr{
+        margin-inline: 0.48rem !important;
+    }
+    .copyright{
+        font-size: 0.8rem !important;
+    }
+  }
+

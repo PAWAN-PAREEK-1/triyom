@@ -23,7 +23,7 @@ const Benifits = () => {
   return (
     <div>
       <section className="benifits">
-        <div className="title">
+        <div className="title m-display-none" >
           <h1>
             Everything Within <span>Reach</span>{" "}
           </h1>
@@ -35,10 +35,22 @@ const Benifits = () => {
           </div>
         </div>
         <div className="detail">
+
           <div className="hero">
             <img src="../assets/img/benifitshero.svg" alt="" />
           </div>
           <div className="be">
+          <div className="title display" >
+          <h1>
+            Everything Within <span>Reach</span>{" "}
+          </h1>
+          <div className="btn m-display-none">
+            <a href="#">
+              Download eBrochures
+              <img src={rightarrow} alt="" />
+            </a>
+          </div>
+        </div>
             {businessCenters.map((center, index) => (
               <div className="hr" key={center.number}>
                 <div className={`be-detail ${openFAQ === index ? "open" : ""}`}>

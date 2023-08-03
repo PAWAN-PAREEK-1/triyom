@@ -1,14 +1,16 @@
-*{
-    padding:0;
+* {
+    padding: 0;
     margin: 0;
     box-sizing: border-box;
     /* overflow-x: hidden; */
 
 }
-:root{
-    --poppins:'Poppins', sans-serif;
+
+:root {
+    --poppins: 'Poppins', sans-serif;
     --play: 'Playfair Display', serif;
 }
+
 .btn {
     padding: 0.625rem 1.5625rem;
     width: 15.7%;
@@ -20,7 +22,7 @@
 
 .btn a {
     color: #FFF;
-    font-family:var(--play);
+    font-family: var(--play);
     font-size: 1.25rem;
     font-style: normal;
     font-weight: 700;
@@ -34,51 +36,56 @@
 
 /* ============================index page strat here */
 
-.index-hero{
+.index-hero {
     background-image: url(../src/assets/img/index-hero.svg);
     background-size: cover;
-    padding: 7.19rem 3.25rem  ;
+    padding: 7.19rem 3.25rem;
     position: relative;
 }
-.index-hero h4{
+
+.index-hero h4 {
     color: var(--black-2, #333);
-font-family: var(--poppins);
-font-size: 1.25rem;
-font-style: normal;
-font-weight: 600;
-line-height: normal;
-text-transform: uppercase;
-display: inline-flex;
-align-items: center;
-gap: 15px;
-padding-bottom: 0.31rem;
+    font-family: var(--poppins);
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+    display: inline-flex;
+    align-items: center;
+    gap: 15px;
+    padding-bottom: 0.31rem;
 
 }
-.index-hero hr{
+
+.index-hero hr {
 
     width: 5.375rem;
-height: 0.125rem;
+    height: 0.125rem;
 }
-.index-hero h1{
+
+.index-hero h1 {
     color: var(--black-2, #333);
-font-family: var(--play);
-font-size: 4rem;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-padding-bottom: 1.25rem;
+    font-family: var(--play);
+    font-size: 4rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-bottom: 1.25rem;
 }
-.index-hero p{
+
+.index-hero p {
     color: var(--black-2, #333);
-font-family: var(--poppins);
-font-size: 1.25rem;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-text-transform: uppercase;
-padding-bottom: 2.81rem;
+    font-family: var(--poppins);
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+    padding-bottom: 2.81rem;
 }
-.side-btn{
+
+.side-btn {
     position: absolute;
     right: -69px;
     top: 15.81rem;
@@ -86,13 +93,16 @@ padding-bottom: 2.81rem;
     width: fit-content;
 
 }
-.btn{
+
+.btn {
     width: fit-content;
 }
-.side-btn a{
+
+.side-btn a {
     font-size: 2rem;
 }
-.experiences{
+
+.experiences {
     background-image: url(../src/assets/img/exp-bg.svg);
     margin-block: 6.25rem;
     padding: 5rem 3.25rem;
@@ -102,257 +112,292 @@ padding-bottom: 2.81rem;
     gap: 7.06rem;
 
 }
+
 /* .exp-left{
     flex: 1;
 }
 .exp-right{
     flex: 1;
 } */
-.exp-right h1{
+.exp-right h1 {
     color: #000;
-font-family: var(--play);
-font-size: 2.5rem;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-padding-bottom: 1.87rem;
+    font-family: var(--play);
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-bottom: 1.87rem;
 }
-.exp-right h4,.exp-right p{
+
+.exp-right h4,
+.exp-right p {
     color: #7F7F7F;
-font-family: var(--poppins);
-font-size: 1.25rem;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
-text-transform: capitalize;
-padding-bottom: 0.94rem;
+    font-family: var(--poppins);
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: capitalize;
+    padding-bottom: 0.94rem;
 }
-#right-p{
+
+#right-p {
     padding-bottom: 2.5rem !important;
 }
-.exp{
 
-box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
-position: absolute;
-text-align: center;
+.exp {
 
-bottom: 7.94rem;
-left: 18rem;
-/* opacity: 0.6000000238418579; */
-background-color: #FFF;
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
+    position: absolute;
+    text-align: center;
+
+    bottom: 7.94rem;
+    left: 18rem;
+    /* opacity: 0.6000000238418579; */
+    background-color: #FFF;
 
 
 }
-.exp-left-35{
+
+.exp-left-35 {
     background-image: url(../src/assets/img/exp-35.svg);
-background-repeat: no-repeat;
-background-size: cover !important;
+    background-repeat: no-repeat;
+    background-size: cover !important;
     padding: 1.25rem 1.88rem;
 
 
 
 
 }
-.exp-left-35 h1{
+
+.exp-left-35 h1 {
     color: #BA9778;
-font-family: var(--poppins);
-font-size: 3.625rem;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-letter-spacing: 0.00313rem;
-text-transform: uppercase;
+    font-family: var(--poppins);
+    font-size: 3.625rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.00313rem;
+    text-transform: uppercase;
 }
-.exp-left-35 h4{
+
+.exp-left-35 h4 {
     color: #000;
-font-family: Barlow;
-font-size: 1.5rem;
-font-style: normal;
-font-weight: 700;
-line-height: 140.5%; /* 2.1075rem */
-letter-spacing: 0.00313rem;
-text-transform: uppercase;
+    font-family: Barlow;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140.5%;
+    /* 2.1075rem */
+    letter-spacing: 0.00313rem;
+    text-transform: uppercase;
 }
-.experiences{
+
+.experiences {
     position: relative;
 }
-.triyom{
+
+.triyom {
     padding: 1rem 3.25rem;
     display: flex;
 
 }
-.triyom-left{
+
+.triyom-left {
     background-color: #F7F7F7;
 
     padding: 3.75rem 4.37rem;
 }
-.triyom-left h3{
+
+.triyom-left h3 {
     display: inline-flex;
     align-items: center;
     gap: 1.25rem;
 }
-.triyom-left hr{
+
+.triyom-left hr {
     width: 6.25rem;
-height: 0.125rem;
-background: #BA9778;
+    height: 0.125rem;
+    background: #BA9778;
 }
-.triyom-left h3{
+
+.triyom-left h3 {
     color: #000;
-font-family: var(--play);
-font-size: 2.5rem;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-padding-bottom: 0.63rem;
+    font-family: var(--play);
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-bottom: 0.63rem;
 }
-.triyom-left p{
+
+.triyom-left p {
     color: #000;
-font-family: var(--poppins);
-font-size: 1.25rem;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-padding-bottom: 1.88rem;
+    font-family: var(--poppins);
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-bottom: 1.88rem;
 }
-.triyom-right{
+
+.triyom-right {
     /* flex: 1; */
     width: 50%;
     overflow: hidden;
 
 }
-.triyom-right img{
+
+.triyom-right img {
     height: 100%;
 }
-.flat-detail{
+
+.flat-detail {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding-block: 0.72rem;
     border-top: 0.09rem solid #D3C7BD;
-    border-bottom:0.09rem solid #D3C7BD ;
+    border-bottom: 0.09rem solid #D3C7BD;
 }
-.flat-detail h2{
+
+.flat-detail h2 {
     display: inline-flex;
     align-items: center;
     gap: 0.62rem;
     color: var(--dark-black, #191919);
-font-family: var(--poppins);
-font-size: 1.25rem;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
+    font-family: var(--poppins);
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
 }
-.flat-detail h3{
+
+.flat-detail h3 {
     color: var(--dark-black, #191919);
-text-align: right;
-font-family: var(--poppins);
-font-size: 1rem;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-padding-bottom: 0;
+    text-align: right;
+    font-family: var(--poppins);
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-bottom: 0;
 }
-.triyom-btn{
+
+.triyom-btn {
     margin-top: 2.5rem;
 }
 
 
 
-.circel{
+.circel {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 1rem;
 }
 
-.circel span  {
+.circel span {
     padding: 0.5rem;
     background-color: #D9D9D9;
     border-radius: 50%;
     cursor: pointer;
 }
+
 .circel span.active,
 .circel span:active {
-  background-color: #BA9778;
-}
-.Project{
-    margin-block: 5rem;
-    opacity: 0.800000011920929;
-background: #F7F7F7;
-padding: 3.25rem;
+    background-color: #BA9778;
 }
 
-.Project h1{
-    color: #000;
-text-align: center;
-font-family: var(--play);
-font-size: 2.5rem;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-text-align: center;
-padding-inline: 25rem;
+.Project {
+    margin-block: 5rem;
+    opacity: 0.800000011920929;
+    background: #F7F7F7;
+    padding: 3.25rem;
 }
-.project-card{
+
+.Project h1 {
+    color: #000;
+    text-align: center;
+    font-family: var(--play);
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+    padding-inline: 25rem;
+}
+
+.project-card {
     background-color: #fff;
     padding: 1.88rem;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
-    gap:0.65rem;
-    width: calc(33.33% - 10px); /* Adjust as needed */
+    gap: 0.65rem;
+    width: calc(33.33% - 10px);
+    /* Adjust as needed */
     margin-bottom: 20px;
 
 
 
 
 }
+
 .project-info {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-   margin-top: 3.12rem;
-  }
-  .project-row {
+    margin-top: 3.12rem;
+}
+
+.project-row {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     width: 100%;
     margin-bottom: 20px;
-  }
-  .project-card h4{
+}
+
+.project-card h4 {
     color: var(--primery, #BA9778);
-font-family: var(--poppins);
-font-size: 1.25rem;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
-padding-top: 0.30rem;
-  }
-  .project-card h3{
+    font-family: var(--poppins);
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-top: 0.30rem;
+}
+
+.project-card h3 {
     color: var(--dark-black, #191919);
-font-family: var(--play);
-font-size: 1.875rem;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-  }
-  .project-card p{
+    font-family: var(--play);
+    font-size: 1.875rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.project-card p {
     color: var(--gray, #7F7F7F);
-font-family: var(--poppins);
-font-size: 1.25rem;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-  }
-  .project-card:hover{
+    font-family: var(--poppins);
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.project-card:hover {
     background-color: #BA9778;
 
-  }
-  .project-card:hover h4,.project-card:hover h3,.project-card:hover p{
+}
+
+.project-card:hover h4,
+.project-card:hover h3,
+.project-card:hover p {
     color: white;
-  }
+}
 
 
 
@@ -366,190 +411,407 @@ line-height: normal;
     justify-content: space-between;
     width: 100%;
     gap: 1rem;
-  }
-  .testi-container{
+}
+
+.testi-container {
     background-color: #F7F7F7;
     padding-block: 6.25rem;
     position: relative;
-  }
-  #testiicon{
+}
+
+#testiicon {
     position: absolute;
     right: 8rem;
     top: 0;
-  }
+}
 
-  #testibg{
+#testibg {
     position: absolute;
     bottom: 0;
     right: 0;
     opacity: 0.05;
 
-  }
-  .navigation img{
+}
+
+.navigation img {
     z-index: 999;
-  }
-  .testi-center {
+}
+
+.testi-center {
     display: flex;
-    align-items: stretch; /* Make both image and text stretch to the same height */
-    flex: 1; /* Make the center section take 100% available width */
+    align-items: stretch;
+    /* Make both image and text stretch to the same height */
+    flex: 1;
+    /* Make the center section take 100% available width */
     width: 70%;
     gap: 1rem;
 }
-.navigation{
+
+.navigation {
     display: flex;
     align-items: center;
     justify-content: space-around;
     padding-top: 2rem;
 
 }
-.navigation img{
+
+.navigation img {
     cursor: pointer;
 }
 
-  .center-img {
-    flex: 1; /* Each element takes 50% width */
+.center-img {
+    flex: 1;
+    /* Each element takes 50% width */
     display: flex;
-    flex-direction: column; /* Make the elements stack vertically */
-    justify-content: center; /* Vertically align content within divs */
+    flex-direction: column;
+    /* Make the elements stack vertically */
+    justify-content: center;
+    /* Vertically align content within divs */
     width: 40%;
 }
-  .testi-detail {
-    flex: 1; /* Each element takes 50% width */
+
+.testi-detail {
+    flex: 1;
+    /* Each element takes 50% width */
     display: flex;
-    flex-direction: column; /* Make the elements stack vertically */
-    justify-content: center; /* Vertically align content within divs */
+    flex-direction: column;
+    /* Make the elements stack vertically */
+    justify-content: center;
+    /* Vertically align content within divs */
     width: 60%;
 }
-  .testi-right,
-  .testi-left{
-    width:15%;
-  }
 
-  .center-img img {
+.testi-right,
+.testi-left {
+    width: 15%;
+}
+
+.center-img img {
     width: 100%;
-    height: 100%; /* Make the image take the full height of center-img */
-    object-fit: cover; /* Ensure the image maintains aspect ratio and covers the space */
-  }
-  .side-img{
+    height: 100%;
+    /* Make the image take the full height of center-img */
+    object-fit: cover;
+    /* Ensure the image maintains aspect ratio and covers the space */
+}
+
+.side-img {
     height: 18.88rem;
-  }
+}
 
-  .testi-detail h2{
+.testi-detail h2 {
     color: #000;
-font-family: var(--play);
-font-size: 2.5rem;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-padding-bottom: 2.19rem;
-  }
-  .testi-detail  p{
-    color: var(--gray, #7F7F7F);
-font-family: var(--poppins);
-font-size: 1.25rem;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-padding-bottom: 1.19rem;
-  }
-  .testi-detail h1{
-    color: var(--dark-black, #191919);
-font-family: var(--poppins);
-font-size: 2.1875rem;
-font-style: normal;
-font-weight: 600;
-line-height: normal;
-  }
+    font-family: var(--play);
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-bottom: 2.19rem;
+}
 
-  .testi-detail h3{
+.testi-detail p {
+    color: var(--gray, #7F7F7F);
+    font-family: var(--poppins);
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-bottom: 1.19rem;
+}
+
+.testi-detail h1 {
     color: var(--dark-black, #191919);
-font-family: var(--poppins);
-font-size: 1.25rem;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-  }
-  .about-hero{
+    font-family: var(--poppins);
+    font-size: 2.1875rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.testi-detail h3 {
+    color: var(--dark-black, #191919);
+    font-family: var(--poppins);
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.about-hero {
     background-size: cover;
     background-position: 100%;
-  }
-  .gallery{
+}
+
+.gallery {
     padding: 3.25rem;
     color: #000;
-text-align: center;
-font-family: var(--play);
-font-size: 1.5rem;
-font-style: normal;
-font-weight: 600;
-line-height: normal;
-  }
-  .gallery h1{
+    text-align: center;
+    font-family: var(--play);
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.gallery h1 {
     padding-bottom: 3.13rem;
-  }
+}
 
+#testicenter {
+    display: none;
+}
 
-  @media (max-width: 768px){
+.display {
+    display: none !important;
+}
+
+@media (max-width: 768px) {
     .index-hero {
         padding: 2.31rem 0.94rem;
 
     }
-    .index-hero h4{
+
+    .index-hero h4 {
         font-size: 0.9375rem;
     }
-    .index-hero hr{
+
+    .index-hero hr {
         background: #BA9778;
         width: 1.5rem;
         height: 0.125rem;
     }
-    .index-hero h1{
-font-size: 1.5rem;
-font-weight: 700;
+
+    .index-hero h1 {
+        font-size: 1.5rem;
+        font-weight: 700;
     }
-    .index-hero p{
-font-size: 0.8125rem;
-font-weight: 400;
-padding-right: 1.5rem;
+
+    .index-hero p {
+        font-size: 0.8125rem;
+        font-weight: 400;
+        padding-right: 1.5rem;
     }
+
     .side-btn a {
         font-size: 0.75rem;
     }
+
     .side-btn {
         right: -34px;
         top: 8.81rem;
 
     }
+
     .btn a {
         font-size: 0.875rem;
         font-weight: 600;
 
     }
+
     .btn {
         padding: 0.44rem 0.94rem;
 
     }
-    #rightarrow{
+
+    .rightarrow {
         width: 1.125rem;
-height: 1.125rem;
+        height: 1.125rem;
     }
-    .experiences{
+
+    .experiences {
         margin-block: 2.25rem;
         flex-direction: column;
         padding: 0.94rem;
     }
-    .exp-left img{
+
+    .exp-left img {
         width: 100%;
 
     }
+
     .exp-left-35 {
         padding: 0.61rem 1.37rem;
     }
 
     .exp {
-       bottom: 69.94rem;
+        bottom: 36.94rem;
         left: 2.7rem;
 
         position: absolute;
 
 
     }
-  }
+
+    .exp-right h1 {
+        font-size: 1.25rem;
+        font-weight: 700;
+    }
+
+    .exp-right p {
+        font-size: 0.8125rem;
+        font-weight: 400;
+    }
+
+    .triyom {
+        padding: 2.5rem 0.95rem;
+        flex-direction: column-reverse;
+
+    }
+
+    .triyom-right img {
+        /* height: 100%; */
+        width: 100%;
+    }
+
+    .triyom-right {
+        /* flex: 1; */
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .triyom-left hr {
+        width: 3.75rem;
+        height: 0.125rem;
+        background: #BA9778;
+    }
+
+    .triyom-left h3 {
+        font-size: 1.25rem;
+        font-weight: 700;
+    }
+
+    .triyom-left {
+        padding: 0.94rem;
+    }
+
+    .triyom-left p {
+        font-size: 1rem;
+        font-weight: 400;
+    }
+
+    .flat-detail h2,
+    .flat-detail h3 {
+        font-size: 0.875rem;
+        font-weight: 500;
+    }
+
+    .Project {
+        margin: 0.94rem;
+        padding: 0.94rem;
+    }
+
+    .project-row {
+        overflow: auto;
+        justify-content: initial;
+    }
+
+    .project-card {
+        min-width: 87%;
+        padding: 0.94rem;
+    }
+
+    .Project h1 {
+        padding-inline: 0;
+        font-size: 1.25rem;
+        font-weight: 700;
+    }
+
+    .project-card h4 {
+        font-size: 0.875rem;
+        font-weight: 500;
+    }
+
+    .project-card h3 {
+        font-size: 1.125rem;
+        font-weight: 600;
+    }
+
+    .project-card p {
+        font-size: 0.8125rem;
+        font-weight: 400;
+
+    }
+
+    .project-row {
+        gap: 20px;
+        flex-wrap: initial;
+        justify-content: initial;
+
+    }
+
+    .testi-container {
+        padding-block: 0.94rem;
+    }
+
+    .testi-detail h2 {
+        font-size: 1.25rem;
+        font-weight: 700;
+    }
+
+    .testi-center {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .center-img {
+        width: 100%;
+    }
+
+    .side-img {
+        display: none;
+        width: 4.6875rem;
+        height: 6.25rem;
+    }
+
+    .testi-detail p {
+        font-size: 0.8125rem;
+        font-weight: 400;
+    }
+
+    .testi-detail h1 {
+        font-size: 1rem;
+        font-weight: 600;
+        line-height: normal;
+    }
+
+    .testi-detail {
+        width: 100%;
+        text-align: center;
+    }
+
+    .testi-right,
+    .testi-left {
+        width: 0%;
+    }
+
+    #testicenter {
+        display: initial;
+        text-align: center;
+        padding-block: 0.94rem;
+        font-size: 1.25rem;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    #testihead {
+        display: none;
+    }
+
+    #testiicon {
+        position: absolute;
+        right: 2rem;
+        top: 21px;
+        height: 4rem;
+    }
+
+    .detail {
+        flex-direction: column;
+    }
+
+    .hero img {
+        width: 100%;
+    }
+    body{
+        overflow-x: hidden !important;
+    }
+
+}
