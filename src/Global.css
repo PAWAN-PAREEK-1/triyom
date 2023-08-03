@@ -473,3 +473,16 @@ line-height: normal;
     background-size: cover;
     background-position: 100%;
   }
+  .gallery{
+    padding: 3.25rem;
+    color: #000;
+text-align: center;
+font-family: var(--play);
+font-size: 1.5rem;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+  }
+  .gallery h1{
+    padding-bottom: 3.13rem;
+  }

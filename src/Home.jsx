@@ -10,7 +10,10 @@ import Benifits from "./Components/Benifits.jsx";
 import Faq from "./Components/Faq.jsx";
 import Form from "./Components/form";
 
+
+
 const Home = () => {
+
   return (
     <section className="main-hero">
       <section className="index-hero">
@@ -67,6 +70,7 @@ const Home = () => {
           </div>
         </div>
       </section>
+   
 
       <TriyomSection />
 
@@ -75,7 +79,7 @@ const Home = () => {
       <Benifits/>
       <Faq/>
       <Form/>
-      
+
     </section>
   );
 };
