@@ -4,7 +4,7 @@ import rightarrow from "../src/assets/img/rightarrow.svg";
 import Testimonial from "./Components/Testimonial.jsx";
 import Benifits from "./Components/Benifits.jsx";
 import Faq from "./Components/Faq.jsx";
-import Form from "./Components/form";
+import Form from "./Components/Form";
 import { ImageList,ImageListItem } from "@mui/material";
 
 const Gallery = () => {

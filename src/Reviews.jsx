@@ -4,7 +4,7 @@ import rightarrow from "../src/assets/img/rightarrow.svg";
 import Testimonial from "./Components/Testimonial.jsx";
 import Benifits from "./Components/Benifits.jsx";
 import Faq from "./Components/Faq.jsx";
-import Form from "./Components/form";
+import Form from "./Components/Form";
 
 const Reviews = () => {
   return (
@@ -12,7 +12,7 @@ const Reviews = () => {
       <section className="index-hero about-hero">
         <h1>Reviews</h1>
       </section>
-     
+
       <Testimonial/>
       <Benifits/>
       <Faq/>
