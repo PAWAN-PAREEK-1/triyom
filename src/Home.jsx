@@ -2,7 +2,7 @@ import React from "react";
 import "./Global.css";
 import Button from "../src/Components/Button";
 import rightarrow from "../src/assets/img/rightarrow.svg";
-import "./Components/header.css";
+import "./Components/Header.css";
 import TriyomSection from "./Components/TriyomSection";
 import ProjectInfo from "./Components/ProjectInfo";
 import Testimonial from "./Components/Testimonial.jsx";
