@@ -4,7 +4,7 @@ import  '../Global.css'
 
 const Button = () => {
   return (
-    <div className='btn'>
+    <div className='btn'  id='bttn'>
         <a href="#">
         Discover More <img src={rightarrow} alt="" />
         </a>

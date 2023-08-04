@@ -36,7 +36,7 @@ const Header = () => {
 
       </NavLink>
       <Navbar/>
-      <Button />
+      <Button/>
       </div>
 
 
