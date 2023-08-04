@@ -89,7 +89,7 @@
     position: absolute;
     right: -69px;
     top: 15.81rem;
-    rotate: 90deg;
+    transform: rotate(90deg);
     width: fit-content;
 
 }
