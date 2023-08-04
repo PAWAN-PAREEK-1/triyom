@@ -70,6 +70,7 @@ margin-block: 2rem;
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
   }
   .links hr{
 margin-inline: 1.88rem;
