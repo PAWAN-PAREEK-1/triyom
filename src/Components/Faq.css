@@ -89,8 +89,8 @@
     align-items: center;
     justify-content: space-between;
     padding: 0.94rem 1.25rem;
-    width: 14.25rem;
-height: 5.5625rem;
+    /* width: 14.25rem;
+height: 5.5625rem; */
 background-color: #BA9778;
 }
 a{

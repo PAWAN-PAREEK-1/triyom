@@ -52,7 +52,26 @@ const Faq = () => {
         <div className="detail detail-faq">
           <div className="hero hero-faq">
             <img src="../assets/img/faqhero.svg" alt="" id="hero-img-faq" />
-            <img src="../assets/img/faqhero2.jpeg" alt="" id="hero-img-faq2" />
+            <div className="hero-fq">
+              <img
+                src="../assets/img/faqhero2.jpeg"
+                alt=""
+                id="hero-img-faq2"
+              />
+              <div className="con-btn-1">
+                <a href="">
+                  <div className="con-btn">
+                    <div className="con-1">
+                      <img src="../assets/img/call2.svg" alt="" />
+                    </div>
+                    <div className="con-2">
+                      <h4>Call Us Now</h4>
+                      <h4>+ 123 456 789</h4>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
           </div>
           <div className="be be-faq">
             <div className="title title-faq">
@@ -62,21 +81,6 @@ const Faq = () => {
                   Lorem Ipsum passage, and going through the cites of the word
                   in classical literature, discovered the undoubtable source.{" "}
                 </h1>
-              </div>
-              <div className="con-btn-1">
-              <a href="">
-              <div className="con-btn">
-
-                <div className="con-1">
-                    <img src="../assets/img/call2.svg" alt="" />
-
-                </div>
-                <div className="con-2">
-                            <h4>Call Us Now</h4>
-                            <h4>+ 123 456 789</h4>
-                </div>
-              </div>
-              </a>
               </div>
             </div>
             {businessCenters.map((center, index) => (
