@@ -843,7 +843,7 @@
 .mobileNav{
     height:100vh ;
     width: 100%;
-    position: absolute !important;
+    position:fixed !important;
     background-color: red;
    right: 0 !important;
    z-index: 99999 !important;
@@ -866,6 +866,10 @@
     }
     #bttn{
         display: none   ;
+    }
+    .main-head{
+        position: relative;
+        z-index: 99;
     }
 
 
