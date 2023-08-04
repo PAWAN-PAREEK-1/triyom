@@ -14,7 +14,7 @@ const About = () => {
       </section>
       <section className="experiences">
         <div className="exp-left">
-          <img src="../src/assets/img/exp-hero.svg" alt="" />
+          <img src="..assets/img/exp-hero.svg" alt="" />
           <div className="exp">
             <div className="exp-left-35">
               <h1>35</h1>

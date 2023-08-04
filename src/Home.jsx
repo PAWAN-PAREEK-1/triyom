@@ -1,7 +1,7 @@
 import React from "react";
 import "./Global.css";
 import Button from "../src/Components/Button";
-import rightarrow from "../src/assets/img/rightarrow.svg";
+import rightarrow from "../assets/img/rightarrow.svg";
 import "./Components/Header.css";
 import TriyomSection from "./Components/TriyomSection";
 import ProjectInfo from "./Components/ProjectInfo";

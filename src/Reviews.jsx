@@ -1,6 +1,6 @@
 import React from "react";
 import "./Global.css";
-import rightarrow from "../src/assets/img/rightarrow.svg";
+// import rightarrow from "../assets/img/rightarrow.svg";
 import Testimonial from "./Components/Testimonial.jsx";
 import Benifits from "./Components/Benifits.jsx";
 import Faq from "./Components/Faq.jsx";
