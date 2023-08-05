@@ -98,7 +98,7 @@ const Testimonial = () => {
           className="arrow-icon"
         />
         <img
-          src="../assets/img/rightarrow.svg"
+          src="../assets/img/rightarrow1.svg"
           alt=""
           onClick={handleNext}
           className="arrow-icon"

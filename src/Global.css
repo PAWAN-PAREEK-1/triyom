@@ -37,7 +37,7 @@
 /* ============================index page strat here */
 
 .index-hero {
-    background-image: url(../src/assets/img/index-hero.svg);
+    background-image: url(/public/assets/img/index-hero.svg);
     background-size: cover;
     padding: 7.19rem 3.25rem;
     position: relative;
@@ -844,16 +844,40 @@
     height:100vh ;
     width: 100%;
     position:fixed !important;
-    background-color: red;
+    background-color: #BA9778;
    right: 0 !important;
    z-index: 99999 !important;
    left: 0 !important;
    top: 0 !important;
    bottom: 0 !important;
+   color: black;
+
+
+}
+.mobileNav ul li{
+    list-style: none;
+    padding-bottom: 1.5rem;
+}
+.mobileNav ul li a {
+
+    color: var(--black-2, #333);
+font-family: Poppins;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-transform: capitalize;
 
 }
 .main-head nav{
     z-index: 99999999;
+}
+.mobileNav ul{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
 }
 
 @media (max-width:768px) {
@@ -870,6 +894,17 @@
     .main-head{
         position: relative;
         z-index: 99;
+    }
+    .main-head{
+        padding: 0.94rem !important ;
+    }
+    #logo{
+        width: 50%;
+    }
+    .closebtn img{
+        width: 12%;
+        padding: 20px 0 0 20px;
+        cursor: pointer;
     }
 
 

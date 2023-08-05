@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import rightarrow from "../assets/img/rightarrow.svg";
+import rightarrow from "/public/assets/img/rightarrow.svg";
 import "../Global.css";
 
 // ... Other imports ...

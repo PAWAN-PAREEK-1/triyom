@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./Benifits.css";
-import rightarrow from "../assets/img/rightarrow.svg";
+// import rightarrow from "/assets/img/rightarrow.svg";
 import Downarrow from "/public/assets/img/downarrow.svg";
 import uparrow from "/public/assets/img/uparrow.svg";
 import "./Faq.css";

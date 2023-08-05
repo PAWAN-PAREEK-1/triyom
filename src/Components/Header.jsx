@@ -1,12 +1,12 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
-import logo from '../assets/img/logo.svg';
+import logo from '/public/assets/img/logo.svg';
 import Navbar from './Navbar';
 import "./Header.css";
 import Button from './Button';
-import call from '../assets/img/call.svg';
-import mail from '../assets/img/mail.svg';
-import location from '../assets/img/location.svg';
+import call from '/public/assets/img/call.svg';
+import mail from '/public/assets/img/mail.svg';
+import location from '/public/assets/img/location.svg';
 // import '../script/toogle.jsx';
 
 
@@ -32,7 +32,7 @@ const Header = () => {
       </div>
       <div className="main-head">
       <NavLink to={"/"}>
-        <img src={logo} alt="" />
+        <img src={logo} alt=""  id="logo"/>
 
       </NavLink>
       <Navbar/>

@@ -51,7 +51,7 @@ const Navbar = () => {
       {menuOpen && (
         <div className="mobileNav">
           <div className="closebtn" onClick={() => setMenuOpen(false)}>
-            close
+          <img src="/public/assets/img/close.svg" alt="" />
           </div>
           <ul>
             <li>

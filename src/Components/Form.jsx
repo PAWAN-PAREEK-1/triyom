@@ -1,6 +1,6 @@
 import React from "react";
 import "./Form.css";
-import rightarrow from "../assets/img/rightarrow.svg";
+// import rightarrow from "/assets/img/rightarrow.svg";
 
 const Form = () => {
   return (
@@ -34,7 +34,7 @@ const Form = () => {
           </div>
           <div className="btn submit-btn">
             <button>
-              Submit <img src={rightarrow} alt="" />
+              Submit <img src="/assets/img/rightarrow.svg" alt="" />
             </button>
           </div>
         </div>

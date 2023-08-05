@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./Benifits.css";
-import rightarrow from "../assets/img/rightarrow.svg";
+import rightarrow from "/public/assets/img/rightarrow.svg";
 import Downarrow from "/public/assets/img/downarrow.svg";
 import uparrow from "/public/assets/img/uparrow.svg";
 
@@ -47,7 +47,7 @@ const Benifits = () => {
           <div className="btn m-display-none">
             <a href="#">
               Download eBrochures
-              <img src={rightarrow} alt="" />
+              <img src="/assets/img/rightarrow.svg" alt="" />
             </a>
           </div>
         </div>

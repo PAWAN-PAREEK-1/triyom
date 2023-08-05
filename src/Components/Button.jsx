@@ -1,5 +1,5 @@
 import React from 'react'
-import rightarrow from '../assets/img/rightarrow.svg'
+import rightarrow from '/public/assets/img/rightarrow.svg'
 import  '../Global.css'
 
 const Button = () => {
