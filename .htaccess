@@ -1,0 +1,12 @@
+# Enable caching
+<IfModule mod_expires.c>
+  ExpiresActive On
+  ExpiresDefault "access plus 1 year"
+</IfModule>
+
+# Cache images and other media types for 1 week
+<IfModule mod_headers.c>
+  <FilesMatch "\.(jpg|jpeg|png|gif|ico|svg|webp)$">
+    Header set Cache-Control "max-age=604800, public"
+  </FilesMatch>
+</IfModule>
