@@ -8,6 +8,10 @@ const Navbar = () => {
   const toggleMenu = () => {
     setMenuOpen(!menuOpen);
   };
+  const closeMenu = () => {
+    setMenuOpen(false);
+  };
+
 
   return (
     <div>
@@ -51,32 +55,32 @@ const Navbar = () => {
       {menuOpen && (
         <div className="mobileNav">
           <div className="closebtn" onClick={() => setMenuOpen(false)}>
-          <img src="/public/assets/img/close.svg" alt="" />
+          <img src="../public/assets/img/close.svg" alt="" />
           </div>
           <ul>
             <li>
-              <NavLink to="/">Home</NavLink>
+              <NavLink to="/" onClick={closeMenu}>Home</NavLink>
             </li>
             <li>
-              <NavLink to="/About">About us</NavLink>
+              <NavLink to="/About"onClick={closeMenu}>About us</NavLink>
             </li>
             <li>
-              <NavLink to="/Project">Projects</NavLink>
+              <NavLink to="/Project" onClick={closeMenu}>Projects</NavLink>
             </li>
             <li>
-              <NavLink to="/Facilities">Facilities</NavLink>
+              <NavLink to="/Facilities" onClick={closeMenu}>Facilities</NavLink>
             </li>
             <li>
-              <NavLink to="/Reviews">Reviews</NavLink>
+              <NavLink to="/Reviews" onClick={closeMenu}>Reviews</NavLink>
             </li>
             <li>
-              <NavLink to="/Gallery">Gallery</NavLink>
+              <NavLink to="/Gallery" onClick={closeMenu}>Gallery</NavLink>
             </li>
             <li>
-              <NavLink to="/Faqs">FAQs</NavLink>
+              <NavLink to="/Faqs" onClick={closeMenu}>FAQs</NavLink>
             </li>
             <li>
-              <NavLink to="/Contact">Contact Us</NavLink>
+              <NavLink to="/Contact" onClick={closeMenu}>Contact Us</NavLink>
             </li>
           </ul>
         </div>
