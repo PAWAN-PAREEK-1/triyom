@@ -1,20 +1,28 @@
-import React from "react";
+import { lazy,Suspense } from 'react';
 import "./Global.css";
 import Button from "../src/Components/Button";
 import rightarrow from "/public/assets/img/rightarrow.svg";
 import "./Components/Header.css";
-import TriyomSection from "./Components/TriyomSection";
-import ProjectInfo from "./Components/ProjectInfo";
-import Testimonial from "./Components/Testimonial.jsx";
-import Benifits from "./Components/Benifits.jsx";
-import Faq from "./Components/Faq.jsx";
-import Form from "./Components/Form";
+// import TriyomSection from "./Components/TriyomSection";
+// import ProjectInfo from "./Components/ProjectInfo";
+// import Testimonial from "./Components/Testimonial.jsx";
+// import Benifits from "./Components/Benifits.jsx";
+// import Faq from "./Components/Faq.jsx";
+// import Form from "./Components/Form";
+const Testimonial = lazy(() => import('./Components/Testimonial.jsx'));
+const Loading = lazy(() => import('./Components/Loading.jsx'));
+const Benifits = lazy(() => import('./Components/Benifits.jsx'));
+const Faq = lazy(() => import('./Components/Faq.jsx'));
+const Form = lazy(() => import('./Components/Form'));
+const ProjectInfo = lazy(() => import('./Components/ProjectInfo'));
+const TriyomSection = lazy(() => import('./Components/TriyomSection'));
 
 
 
 const Home = () => {
 
   return (
+<Suspense fallback={<div><Loading/></div>}>
     <section className="main-hero">
       <section className="index-hero">
         <h4>
@@ -86,6 +94,7 @@ const Home = () => {
       <Form/>
 
     </section>
+    </Suspense>
   );
 };
 

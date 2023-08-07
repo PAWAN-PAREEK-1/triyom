@@ -1,11 +1,13 @@
-import React from "react";
+import { lazy,Suspense } from 'react';
 import "./Global.css";
-import Testimonial from "./Components/Testimonial.jsx";
-import Benifits from "./Components/Benifits.jsx";
-import Faq from "./Components/Faq.jsx";
-import Form from "./Components/Form";
+const Testimonial = lazy(() => import('./Components/Testimonial.jsx'));
+const Loading = lazy(() => import('./Components/Loading.jsx'));
+const Benifits = lazy(() => import('./Components/Benifits.jsx'));
+const Faq = lazy(() => import('./Components/Faq.jsx'));
+const Form = lazy(() => import('./Components/Form'));
 const Faqs = () => {
   return (
+    <Suspense fallback={<div><Loading/></div>}>
     <div>
 
 
@@ -23,6 +25,7 @@ const Faqs = () => {
 
 
     </div>
+    </Suspense>
   )
 }
 

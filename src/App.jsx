@@ -22,6 +22,7 @@ const Gallery = lazy(() => import('./Gallery'));
 const Faqs = lazy(() => import('./Faqs'));
 const Header = lazy(() => import('./Components/Header'));
 const Footer = lazy(() => import('./Components/Footer'));
+const Loading = lazy(() => import('./Components/Loading.jsx'));
 
 
 
@@ -33,7 +34,7 @@ const App = () => {
     <>
 
   <BrowserRouter>
-  <Suspense fallback={<div>Loading..</div>}>
+  <Suspense fallback={<div><Loading/></div>}>
   <Header/>
 
 

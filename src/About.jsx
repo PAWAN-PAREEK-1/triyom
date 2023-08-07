@@ -1,14 +1,21 @@
-import React from "react";
+import { lazy,Suspense } from 'react';
 import "./Global.css";
 import rightarrow from "/public/assets/img/rightarrow.svg";
-import Testimonial from "./Components/Testimonial.jsx";
-import Benifits from "./Components/Benifits.jsx";
-import Faq from "./Components/Faq.jsx";
-import Form from "./Components/Form";
+// import Testimonial from "./Components/Testimonial.jsx";
+// import Benifits from "./Components/Benifits.jsx";
+// import Faq from "./Components/Faq.jsx";
+// import Form from "./Components/Form";
+const Testimonial = lazy(() => import('./Components/Testimonial.jsx'));
+const Loading = lazy(() => import('./Components/Loading.jsx'));
+const Benifits = lazy(() => import('./Components/Benifits.jsx'));
+const Faq = lazy(() => import('./Components/Faq.jsx'));
+const Form = lazy(() => import('./Components/Form'));
+
 
 const About = () => {
   return (
     <div>
+<Suspense fallback={<div><Loading/></div>}>
       <section className="index-hero about-hero">
         <h1>About Us</h1>
       </section>
@@ -52,6 +59,7 @@ const About = () => {
       <Benifits/>
       <Faq/>
       <Form/>
+      </Suspense>
     </div>
   );
 };
