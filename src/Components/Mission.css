@@ -14,13 +14,13 @@
 }
 .vision{
 
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.00) 42.19%, #000 100%),url(../public/assets/img/vision.png);
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.00) 42.19%, #000 100%),url(/assets/img/vision.png);
 
 
 
 }
 .mission{
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.00) 42.19%, #000 100%),url(../public/assets/img/mission.png);
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.00) 42.19%, #000 100%),url(/assets/img/mission.png);
 
 }
 
