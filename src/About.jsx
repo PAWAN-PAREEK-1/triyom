@@ -5,10 +5,8 @@ import rightarrow from "/public/assets/img/rightarrow.svg";
 // import Benifits from "./Components/Benifits.jsx";
 // import Faq from "./Components/Faq.jsx";
 // import Form from "./Components/Form";
-const Testimonial = lazy(() => import('./Components/Testimonial.jsx'));
+const Mission = lazy(() => import('./Components/Mission.jsx'));
 const Loading = lazy(() => import('./Components/Loading.jsx'));
-const Benifits = lazy(() => import('./Components/Benifits.jsx'));
-const Faq = lazy(() => import('./Components/Faq.jsx'));
 const Form = lazy(() => import('./Components/Form'));
 
 
@@ -55,9 +53,9 @@ const About = () => {
           </div>
         </div>
       </section>
-      <Testimonial/>
-      <Benifits/>
-      <Faq/>
+
+      <Mission/>
+
       <Form/>
       </Suspense>
     </div>

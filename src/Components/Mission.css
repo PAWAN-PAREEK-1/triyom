@@ -1,0 +1,93 @@
+
+:root {
+    --poppins: 'Poppins', sans-serif;
+    --play: 'Playfair Display', serif;
+}
+
+.mivi{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 3.25rem;
+  gap: 1.94rem;
+
+}
+.vision{
+
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.00) 42.19%, #000 100%),url(../public/assets/img/vision.png);
+
+
+
+}
+.mission{
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.00) 42.19%, #000 100%),url(../public/assets/img/mission.png);
+
+}
+
+.mission,.vision{
+    background-size: cover;
+    padding: 2.5rem;
+    padding-top: 250px;
+
+
+}
+.mission h2,.vision h2{
+    color: #FFF;
+font-family: var(--play);
+font-size: 2.5rem;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+padding-bottom: 0.94rem;
+}
+.mission p,.vision p{
+    color: #FFF;
+    font-family: var(--poppins);
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+
+@media (max-width: 768px) {
+
+
+    .mivi{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+        padding:0.94rem;
+        gap: 1.94rem;
+      }
+
+    .mission,.vision{
+        background-size: cover;
+        padding: 0.62rem;
+        padding-top: 15rem;
+
+    }
+    .mission h2,.vision h2{
+        color: var(--white, #FFF);
+        font-family: var(--play);
+        font-size: 1.25rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    padding-bottom: 0.94rem;
+    }
+    .mission p,.vision p{
+        color: var(--white, #FFF);
+        font-family: Poppins;
+        font-size: 0.8125rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-transform: capitalize;
+    }
+
+}
+
+

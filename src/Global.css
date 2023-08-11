@@ -104,7 +104,7 @@
 }
 
 .experiences {
-    background-image: url(../src/assets/img/exp-bg.svg);
+    background-image: url(../public/assets/img/exp-bg.svg);
     margin-block: 6.25rem;
     padding: 5rem 3.25rem;
     display: flex;
@@ -159,9 +159,12 @@
 
 
 }
+.exp-right{
+    flex: 1;
+}
 
 .exp-left-35 {
-    background-image: url(../src/assets/img/exp-35.svg);
+    background-image: url(../public/assets/img/exp-35.svg);
     background-repeat: no-repeat;
     background-size: cover !important;
     padding: 1.25rem 1.88rem;
