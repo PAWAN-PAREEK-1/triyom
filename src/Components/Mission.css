@@ -8,13 +8,14 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 3.25rem;
+  padding: 0 3.25rem 0;
   gap: 1.94rem;
+  margin-top: 6.25rem;
 
 }
 .vision{
 
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.00) 42.19%, #000 100%),url(/assets/img/vision.png); 
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.00) 42.19%, #000 100%),url(/assets/img/vision.png);
 
 
 

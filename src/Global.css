@@ -105,7 +105,7 @@
 
 .experiences {
     background-image: url(../public/assets/img/exp-bg.svg);
-    margin-block: 6.25rem;
+    margin-top: 6.25rem;
     padding: 5rem 3.25rem;
     display: flex;
     align-items: center;
@@ -201,8 +201,12 @@
     position: relative;
 }
 
+.triyomsec{
+    margin-top: 6.25rem;
+}
+
 .triyom {
-    padding: 1rem 3.25rem;
+    padding: 0rem 3.25rem 1rem;
     display: flex;
 
 }
@@ -314,10 +318,10 @@
 }
 
 .Project {
-    margin-block: 5rem;
+    margin-top: 6.25rem;
     opacity: 0.800000011920929;
     background: #F7F7F7;
-    padding: 3.25rem;
+    padding: 5rem 3.25rem;
 }
 
 .Project h1 {
@@ -394,6 +398,7 @@
 
 .project-card:hover {
     background-color: #BA9778;
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.05);
 
 }
 
@@ -421,6 +426,7 @@
     background-color: #F7F7F7;
     padding-block: 6.25rem;
     position: relative;
+    margin-top: 6.25rem;
 }
 
 #testiicon {

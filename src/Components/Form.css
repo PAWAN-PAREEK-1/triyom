@@ -6,8 +6,11 @@ a{
     text-decoration: none;
 }
 .contact-form{
-    padding: 3.25rem;
+    padding: 0 3.25rem 0;
     position: relative;
+    max-width: 1632px;
+  margin: auto;
+  margin-top: 6.25rem;
 
 }
 .form-hero{

@@ -16,8 +16,7 @@ const Contact = () => {
       </section>
       <Form/>
      <Faq/>
-     <Benifits/>
-     <Testimonial/>
+   
      </Suspense>
 
 

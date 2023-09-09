@@ -16,8 +16,7 @@ const Reviews = () => {
       </section>
 
       <Testimonial/>
-      <Benifits/>
-      <Faq/>
+     
       <Form/>
     </div>
     </Suspense>

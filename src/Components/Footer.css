@@ -5,6 +5,7 @@ footer {
     background-color: #191919;
     color: #fff;
     overflow-x:hidden;
+    margin-top: 6.25rem;
 
   }
 
@@ -41,6 +42,7 @@ footer {
   .copyright {
     text-align: center;
     /* Add styles for the copyright text */
+    padding-bottom: 1.9rem;
   }
 
   /* Media query for tablets */

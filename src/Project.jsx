@@ -7,6 +7,8 @@ const Benifits = lazy(() => import('./Components/Benifits.jsx'));
 const Faq = lazy(() => import('./Components/Faq.jsx'));
 const Form = lazy(() => import('./Components/Form'));
 
+const TriyomSection = lazy(() => import('./Components/TriyomSection'));
+
 const Project = () => {
   return (
     <Suspense fallback={<div><Loading/></div>}>
@@ -14,7 +16,7 @@ const Project = () => {
       <section className="index-hero about-hero">
         <h1>Projects</h1>
       </section>
-      <section className="experiences">
+      {/* <section className="experiences">
         <div className="exp-left">
           <img src="../assets/img/exp-hero.svg" alt="" />
           <div className="exp">
@@ -49,10 +51,11 @@ const Project = () => {
             </a>
           </div>
         </div>
-      </section>
+      </section> */}
+      <TriyomSection/>
       <Testimonial/>
       <Benifits/>
-      <Faq/>
+
       <Form/>
     </div>
     </Suspense>

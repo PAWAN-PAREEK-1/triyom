@@ -9,8 +9,18 @@
 
 .detail-faq {
     flex-direction: row-reverse;
-    gap: 6.25rem;
+    gap:1.88rem;
     padding: 0;
+}
+.be{
+    width: 35%;
+
+}
+.hero{
+    width: 65%;
+}
+.hero img{
+    width: 100%;
 }
 
 .hero-faq,
@@ -21,6 +31,7 @@
 
 .hero-faq {
     position: relative;
+    overflow-x: initial;
 }
 
 .be-detail-faq {
@@ -88,7 +99,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0.94rem 1.25rem;
+    padding: 0.94rem 2.43rem;
     /* width: 14.25rem;
 height: 5.5625rem; */
 background-color: #BA9778;
@@ -112,6 +123,7 @@ a{
 
 #hero-img-faq{
     position: relative !important ;
+    width: 100%;
 
 }
 #hero-img-faq2{
@@ -153,4 +165,14 @@ a{
     }
 }
 
+
+@media (max-width: 1800px) {
+
+.con-btn{
+
+
+    padding: 0.94rem 0.75rem;
+
+}
+}
 

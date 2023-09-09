@@ -63,9 +63,9 @@ const Gallery = () => {
   ))}
 </ImageList>
       </div>
-
-      <Testimonial/>
       <Benifits/>
+      <Testimonial/>
+
       <Faq/>
       <Form/>
     </div>
