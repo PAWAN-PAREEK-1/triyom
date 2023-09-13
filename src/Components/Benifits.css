@@ -217,3 +217,13 @@ span {
     }
 
 }
+
+
+
+@media (min-width: 1900px) {
+    .benifits{
+        padding-inline: 12.5rem;
+    }
+
+}
+

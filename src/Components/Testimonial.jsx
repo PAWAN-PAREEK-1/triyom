@@ -30,6 +30,20 @@ const Testimonial = () => {
       testipost: "sns karmachari",
       testiimg: "../assets/img/rev2.svg",
     },
+    {
+      testidec:
+        "Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.Lorem Ipsum passage, and going through the cites of the word ites of the word in classical literature, discovered the undoubtable source.Lorem Ipsum passage, and going through the cites of the word in classical literature, Lorem Ipsum passage, and going through the cites sical literature,he word in classical literature, Lorem Ipsum passage, and going through the cites sical literature ",
+      testiname: "aastha malhar",
+      testipost: "gatar karmchari",
+      testiimg: "../assets/img/rev3.svg",
+    },
+    {
+      testidec:
+        "Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.Lorem Ipsum passage, and going through the cites of the word ites of the word in classical literature, discovered the undoubtable source.Lorem Ipsum passage, and going through the cites of the word in classical literature, Lorem Ipsum passage, and going through the cites sical literature,he word in classical literature, Lorem Ipsum passage, and going through the cites sical literature ",
+     testiname: "dipika paadukon",
+      testipost: "sns karmachari",
+      testiimg: "../assets/img/rev2.svg",
+    },
   ];
 
   const [currentIndex, setCurrentIndex] = useState(0);

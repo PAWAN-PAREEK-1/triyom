@@ -454,7 +454,7 @@
     flex: 1;
     /* Make the center section take 100% available width */
     width: 70%;
-    gap: 1rem;
+    gap: 1.87rem;
 }
 
 .navigation {
@@ -552,7 +552,7 @@
 }
 
 .gallery {
-    padding: 3.25rem;
+    padding: 6.25rem;
     color: #000;
     text-align: center;
     font-family: var(--play);
@@ -919,3 +919,29 @@ text-transform: capitalize;
 
 
 }
+
+
+@media (min-width: 1900px) {
+    .index-hero{
+        padding-inline: 12.5rem;
+    }
+    .experiences{
+        padding-inline: 12.5rem;
+    }
+    .exp{
+        left:28rem;
+    }
+    .triyom{
+
+            padding-inline: 12.5rem;
+        }
+
+        .Project
+            {
+                padding-inline: 12.5rem;
+            }
+
+
+
+}
+

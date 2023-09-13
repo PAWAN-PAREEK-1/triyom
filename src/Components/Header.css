@@ -120,6 +120,14 @@ hr {
 
 
 
+  @media (min-width: 1900px) {
+    .main-head{
+        padding-inline: 12.5rem;
+    }
+
+}
+
+
 
 
 
